@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+:root {
+  --cPrin:#143c54;
+  --cOscu:#252a34;
+  --cPrinCla:#15a4bc;
+  --cCla:#eaeaea;
+  --cClaInteso:#969696;
+  --tittle:35px;
+  --tiMob:30px;
+  --text:19px;
+  --texMob:12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--cCla);
+  overflow-x: hidden;
+}
+
+.bisel-down {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-width: 0 0 10vh 100vw;
+  border-color: transparent transparent var(--cCla) transparent;
+  border-style: solid;
+  z-index: 9999;
+}
+@media screen and (max-width: 768px) {
+  .bisel-down {
+    border-width: 0 0 3.5vh 100vw;
+  }
+}
+
+.bisel-up {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-width: 0 100vw 10vh 0;
+  border-color: transparent var(--cCla) transparent transparent;
+  border-style: solid;
+  z-index: 9999;
+}
+@media screen and (max-width: 768px) {
+  .bisel-up {
+    border-width: 0 100vw 3.5vh 0;
+  }
+}
+
+#inicio {
+  position: relative;
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--cCla);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999;
+}
+.menu .logoCv {
+  margin-left: 20px;
+}
+.menu .logoCv h1 a {
+  text-decoration: none;
+  font-size: var(--tittle);
+  font-weight: 400px;
+  color: var(--cOscu);
+}
+@media screen and (max-width: 768px) {
+  .menu .logoCv {
+    margin-left: 10px;
+  }
+  .menu .logoCv h1 a {
+    font-size: var(--tiMob);
+  }
+}
+.menu .lista-content {
+  margin-right: 20px;
+}
+.menu .lista-content ul {
+  display: flex;
+  list-style: none;
+}
+.menu .lista-content ul li a {
+  text-decoration: none;
+  color: var(--cOscu);
+  margin-right: 12px;
+  padding: 8px;
+  font-size: var(--text);
+  border-radius: 24px;
+  transition: 0.45s;
+}
+@media screen and (max-width: 768px) {
+  .menu .lista-content ul li a {
+    font-size: var(--texMob);
+    border-radius: 0px;
+  }
+}
+.menu .lista-content ul li a:hover, .menu .lista-content ul li a.partActive {
+  background-color: var(--cPrin);
+  color: var(--cCla);
+}
+
+.img-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../../asets/img/sobre-mi.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .img-header {
+    height: 50vh;
+  }
+}
+.img-header .bienvenido {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .img-header .bienvenido {
+    height: 50vh;
+  }
+}
+.img-header .bienvenido h2 {
+  font-size: var(--tittle);
+  color: var(--cCla);
+  font-weight: 300px;
+}
+@media screen and (max-width: 768px) {
+  .img-header .bienvenido h2 {
+    font-size: var(--tiMob);
+  }
+}
+.img-header .bienvenido p {
+  font-size: var(--text);
+  color: var(--cCla);
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .img-header .bienvenido p {
+    font-size: var(--text);
+  }
+}
+.img-header .bienvenido .primerContacto {
+  display: flex;
+  margin-top: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-header .bienvenido .primerContacto a {
+  text-decoration: none;
+  font-size: var(--text);
+  color: var(--cCla);
+}
+.img-header .bienvenido .primerContacto a i {
+  margin: 0px 8px;
+}
+.img-header .bienvenido button {
+  width: 130px;
+  height: 40px;
+  background: var(--cCla);
+  border-radius: 25px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .img-header .bienvenido button {
+    display: none;
+  }
+}
+.img-header .bienvenido button:hover {
+  background: var(--cClaInteso);
+}
+
+.sobreMi {
+  width: 100%;
+  margin-top: 50px;
+}
+.sobreMi .sobreContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sobreMi .sobreContainer .sobrePresent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.sobreMi .sobreContainer .sobrePresent h3 {
+  margin-left: 50px;
+  color: var(--cOscu);
+  font-size: var(--tittle);
+}
+@media screen and (max-width: 768px) {
+  .sobreMi .sobreContainer .sobrePresent h3 {
+    margin-left: 15px;
+  }
+}
+.sobreMi .sobreContainer .sobrePresent .flecha {
+  position: absolute;
+  top: 70%;
+  left: 22%;
+  cursor: pointer;
+  padding: 8px;
+  font-size: var(--text);
+  color: var(--cOscu);
+  border-radius: 24px;
+  transition: 0.45s;
+}
+@media screen and (max-width: 768px) {
+  .sobreMi .sobreContainer .sobrePresent .flecha {
+    left: 70%;
+    border-radius: 24px;
+    border-color: var(--cPrin);
+    border-style: solid;
+  }
+}
+.sobreMi .sobreContainer .sobrePresent .flecha:hover {
+  background-color: var(--cPrin);
+  color: var(--cCla);
+}
+.sobreMi .sobreContainer .sobrePresent .flecha:hover i {
+  transition: 0.845s;
+  transform: rotate(-0.5turn);
+}
+.sobreMi .sobreContainer .sobrePresent .flecha-color {
+  position: absolute;
+  top: 70%;
+  left: 22%;
+  cursor: pointer;
+  padding: 8px;
+  font-size: var(--text);
+  color: var(--cOscu);
+  border-radius: 24px;
+  transition: 0.45s;
+}
+@media screen and (max-width: 768px) {
+  .sobreMi .sobreContainer .sobrePresent .flecha-color {
+    left: 70%;
+    border-radius: 24px;
+    border-color: var(--cPrin);
+    border-style: solid;
+    background: var(--cPrin);
+    color: var(--cCla);
+  }
+}
+.sobreMi .sobreContainer #fotoCv {
+  width: 140px;
+  height: auto;
+  border-radius: 12px;
+}
+.sobreMi .menosInfo {
+  display: none;
+}
+.sobreMi .masInfo {
+  display: block;
+}
+.sobreMi p {
+  text-align: justify;
+  color: var(--cOscu);
+  font-size: var(--text);
+}
+
+.estudios {
+  width: 100%;
+  height: 60vw;
+  background-image: url("../../asets/img/estudios.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .estudios {
+    height: 1800px;
+  }
+}
+.estudios .estudiosDeg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 48, 86, 0.3);
+}
+.estudios .estuContainer {
+  width: 90%;
+  margin: auto;
+  padding-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer {
+    padding-top: 50px;
+  }
+}
+.estudios .estuContainer .estudios-tittel {
+  border: 2px solid var(--cCla);
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estudios-tittel {
+    width: 75%;
+  }
+}
+.estudios .estuContainer .estudios-tittel h2 {
+  font-weight: 600px;
+  color: var(--cCla);
+  font-size: var(--tittle);
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estudios-tittel h2 {
+    font-size: var(--tiMob);
+  }
+}
+.estudios .estuContainer .estudios-tittel hr {
+  background-color: var(--cCla);
+  width: 50%;
+  height: 1px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estudios-tittel hr {
+    width: 80%;
+  }
+}
+.estudios .estuContainer .estu-galeria {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.estudios .estuContainer .estu-galeria .estuImages {
+  width: calc(30% - 10px);
+  margin: 10px;
+  border: 2.5px solid var(--cCla);
+  border-radius: 8px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages {
+    width: 90%;
+  }
+  .estudios .estuContainer .estu-galeria .estuImages img {
+    filter: brightness(30%);
+  }
+}
+.estudios .estuContainer .estu-galeria .estuImages:hover img {
+  filter: brightness(50%);
+}
+.estudios .estuContainer .estu-galeria .estuImages:hover .estuInstitucion, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros2 {
+  color: #ff7b3d;
+  display: block;
+  font-size: 1.25vw;
+}
+.estudios .estuContainer .estu-galeria .estuImages:hover .estunombre, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros1 {
+  display: block;
+  font-size: 1.25vw;
+}
+.estudios .estuContainer .estu-galeria .estuImages img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.estudios .estuContainer .estu-galeria .estuImages .estuInstitucion {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-weight: 300px;
+  text-shadow: 0px 0px 20px white;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages .estuInstitucion {
+    display: block;
+  }
+}
+.estudios .estuContainer .estu-galeria .estuImages .estunombre {
+  width: 90%;
+  text-align: center;
+  text-shadow: 0px 10px 20px black;
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-size: var(--text);
+  font-weight: 300px;
+  border-radius: 8px;
+  color: var(--cCla);
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages .estunombre {
+    display: block;
+    left: 20px;
+  }
+}
+.estudios .estuContainer .estu-galeria .estuImages .estuOtros1 {
+  width: 90%;
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+  font-size: var(--text);
+  font-weight: 300px;
+  color: var(--cCla);
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages .estuOtros1 {
+    display: block;
+  }
+}
+.estudios .estuContainer .estu-galeria .estuImages .estuOtros2 {
+  width: auto;
+  text-shadow: 0px 0px 20px white;
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  left: 40%;
+  font-weight: 300px;
+}
+@media screen and (max-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages .estuOtros2 {
+    display: block;
+    bottom: 30px;
+    left: 30%;
+  }
+}
+.estudios .estuContainer .estu-galeria span {
+  color: var(--cCla);
+}
+.estudios .estuContainer .estu-galeria span a {
+  text-decoration: none;
+  color: #2b6ed4;
+}
+.estudios .ejeZ {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.conocimientos {
+  width: 100%;
+  height: 900px;
+  background-image: url("../../asets/img/conocimientos.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .conocimientos {
+    height: 1700px;
+  }
+}
+.conocimientos .conocimientosDeg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 37, 39, 0.6235294118);
+}
+.conocimientos .conocimientosMain {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding-top: 90px;
+}
+.conocimientos .conocimientosMain .tittelCono {
+  border: 2px solid var(--cCla);
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .tittelCono {
+    width: 75%;
+  }
+}
+.conocimientos .conocimientosMain .tittelCono h2 {
+  font-weight: 600px;
+  color: var(--cCla);
+  font-size: var(--tittle);
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .tittelCono h2 {
+    font-size: var(--tiMob);
+  }
+}
+.conocimientos .conocimientosMain .tittelCono hr {
+  background-color: var(--cCla);
+  width: 55%;
+  height: 1px;
+  margin: -5px auto;
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .tittelCono hr {
+    width: 80%;
+  }
+}
+.conocimientos .conocimientosMain .conoContent {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.conocimientos .conocimientosMain .conoContent .front, .conocimientos .conocimientosMain .conoContent .back, .conocimientos .conocimientosMain .conoContent .forma, .conocimientos .conocimientosMain .conoContent .herra, .conocimientos .conocimientosMain .conoContent .otros {
+  width: calc(20% - 10px);
+  height: auto;
+  margin: 10px;
+  border: 2.5px solid var(--cCla);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.8039215686);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "cnav" "cMain" "cFoot";
+  color: var(--cCla);
+}
+.conocimientos .conocimientosMain .conoContent .front .contTit, .conocimientos .conocimientosMain .conoContent .back .contTit, .conocimientos .conocimientosMain .conoContent .forma .contTit, .conocimientos .conocimientosMain .conoContent .herra .contTit, .conocimientos .conocimientosMain .conoContent .otros .contTit {
+  grid-area: cnav;
+  margin: 25px auto -30px auto;
+  font-weight: bold;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain, .conocimientos .conocimientosMain .conoContent .back .contMain, .conocimientos .conocimientosMain .conoContent .forma .contMain, .conocimientos .conocimientosMain .conoContent .herra .contMain, .conocimientos .conocimientosMain .conoContent .otros .contMain {
+  grid-area: cMain;
+  margin-top: 25px;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 10px;
+  font-size: 60px;
+  width: calc(25% + 5px);
+  height: auto;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq:hover span, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq:hover span, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq:hover span, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq:hover span, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq:hover span {
+  visibility: visible;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq span, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq span, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq span, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq span, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq span {
+  visibility: hidden;
+  position: absolute;
+  width: 35px;
+  font-size: 25%;
+  top: 50%;
+  left: 50px;
+  color: black;
+  background: white;
+  border-radius: 50%;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq p, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq p, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq p, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq p, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq p {
+  margin: 5px 0;
+  color: var(--cCla);
+  font-size: 18%;
+}
+.conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq img {
+  width: 60px;
+  height: 60px;
+}
+.conocimientos .conocimientosMain .conoContent .front .contFoo, .conocimientos .conocimientosMain .conoContent .back .contFoo, .conocimientos .conocimientosMain .conoContent .forma .contFoo, .conocimientos .conocimientosMain .conoContent .herra .contFoo, .conocimientos .conocimientosMain .conoContent .otros .contFoo {
+  grid-area: cFoot;
+  margin: auto auto 15px auto;
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .conoContent .front .contFoo, .conocimientos .conocimientosMain .conoContent .back .contFoo, .conocimientos .conocimientosMain .conoContent .forma .contFoo, .conocimientos .conocimientosMain .conoContent .herra .contFoo, .conocimientos .conocimientosMain .conoContent .otros .contFoo {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .conoContent .front, .conocimientos .conocimientosMain .conoContent .back, .conocimientos .conocimientosMain .conoContent .forma, .conocimientos .conocimientosMain .conoContent .herra, .conocimientos .conocimientosMain .conoContent .otros {
+    width: 100%;
+  }
+}/*# sourceMappingURL=portfolio.css.map */

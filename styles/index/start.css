@@ -1,0 +1,2488 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.click {
+  box-shadow: 0 0 10px #1280e7, 0 0 40px #1280e7, 0 0 80px #1280e7;
+  background-color: #1280e7;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  transition: 0.45s;
+}
+a:hover {
+  box-shadow: 0 0 10px #1280e7, 0 0 40px #1280e7, 0 0 80px #1280e7;
+  background-color: #1280e7;
+  transition-delay: 1.2s;
+}
+a:hover #sTop {
+  left: 100%;
+  transition: 1s;
+}
+a:hover #sRight {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+a:hover #sButton {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+a:hover #sLeft {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+a .action#sTop {
+  left: 100%;
+  transition: 2s;
+}
+a .action#sRight {
+  top: 100%;
+  transition: 2s;
+  transition-delay: 0.5s;
+}
+a .action#sButton {
+  right: 100%;
+  transition: 2s;
+  transition-delay: 1s;
+}
+a .action#sLeft {
+  bottom: 100%;
+  transition: 2s;
+  transition-delay: 1.5s;
+}
+a span {
+  position: absolute;
+  display: block;
+}
+
+#sTop {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #1280e7);
+}
+
+#sButton {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #1280e7);
+}
+
+#sRight {
+  top: -100%;
+  right: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #1280e7);
+}
+
+#sLeft {
+  bottom: -100%;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #1280e7);
+}
+
+.pos1 {
+  position: absolute;
+  top: 32%;
+  left: 88%;
+  font-size: 53px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0025s;
+}
+
+.delay1 {
+  transition-delay: 0.05s;
+}
+
+.transformed1 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0025s;
+}
+
+.pos2 {
+  position: absolute;
+  top: 25%;
+  right: 19%;
+  font-size: 44px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.005s;
+}
+
+.delay2 {
+  transition-delay: 0.1s;
+}
+
+.transformed2 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.005s;
+}
+
+.pos3 {
+  position: absolute;
+  top: 12%;
+  left: 82%;
+  font-size: 58px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0075s;
+}
+
+.delay3 {
+  transition-delay: 0.15s;
+}
+
+.transformed3 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0075s;
+}
+
+.pos4 {
+  position: absolute;
+  top: 73%;
+  right: 12%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.01s;
+}
+
+.delay4 {
+  transition-delay: 0.2s;
+}
+
+.transformed4 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.01s;
+}
+
+.pos5 {
+  position: absolute;
+  top: 69%;
+  left: 75%;
+  font-size: 80px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0125s;
+}
+
+.delay5 {
+  transition-delay: 0.25s;
+}
+
+.transformed5 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0125s;
+}
+
+.pos6 {
+  position: absolute;
+  top: 84%;
+  right: 42%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.015s;
+}
+
+.delay6 {
+  transition-delay: 0.3s;
+}
+
+.transformed6 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.015s;
+}
+
+.pos7 {
+  position: absolute;
+  top: 72%;
+  left: 47%;
+  font-size: 57px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0175s;
+}
+
+.delay7 {
+  transition-delay: 0.35s;
+}
+
+.transformed7 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0175s;
+}
+
+.pos8 {
+  position: absolute;
+  top: 52%;
+  right: 12%;
+  font-size: 20px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.02s;
+}
+
+.delay8 {
+  transition-delay: 0.4s;
+}
+
+.transformed8 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.02s;
+}
+
+.pos9 {
+  position: absolute;
+  top: 12%;
+  left: 86%;
+  font-size: 32px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0225s;
+}
+
+.delay9 {
+  transition-delay: 0.45s;
+}
+
+.transformed9 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0225s;
+}
+
+.pos10 {
+  position: absolute;
+  top: 42%;
+  right: 22%;
+  font-size: 95px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.025s;
+}
+
+.delay10 {
+  transition-delay: 0.5s;
+}
+
+.transformed10 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.025s;
+}
+
+.pos11 {
+  position: absolute;
+  top: 84%;
+  left: 81%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0275s;
+}
+
+.delay11 {
+  transition-delay: 0.55s;
+}
+
+.transformed11 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0275s;
+}
+
+.pos12 {
+  position: absolute;
+  top: 19%;
+  right: 83%;
+  font-size: 70px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.03s;
+}
+
+.delay12 {
+  transition-delay: 0.6s;
+}
+
+.transformed12 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.03s;
+}
+
+.pos13 {
+  position: absolute;
+  top: 32%;
+  left: 83%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0325s;
+}
+
+.delay13 {
+  transition-delay: 0.65s;
+}
+
+.transformed13 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0325s;
+}
+
+.pos14 {
+  position: absolute;
+  top: 39%;
+  right: 58%;
+  font-size: 96px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.035s;
+}
+
+.delay14 {
+  transition-delay: 0.7s;
+}
+
+.transformed14 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.035s;
+}
+
+.pos15 {
+  position: absolute;
+  top: 12%;
+  left: 47%;
+  font-size: 99px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0375s;
+}
+
+.delay15 {
+  transition-delay: 0.75s;
+}
+
+.transformed15 {
+  visibility: visible !important;
+  color: #1280e7;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0375s;
+}
+
+.pos16 {
+  position: absolute;
+  top: 77%;
+  right: 70%;
+  font-size: 75px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.04s;
+}
+
+.delay16 {
+  transition-delay: 0.8s;
+}
+
+.transformed16 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.04s;
+}
+
+.pos17 {
+  position: absolute;
+  top: 51%;
+  left: 12%;
+  font-size: 73px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0425s;
+}
+
+.delay17 {
+  transition-delay: 0.85s;
+}
+
+.transformed17 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0425s;
+}
+
+.pos18 {
+  position: absolute;
+  top: 65%;
+  right: 90%;
+  font-size: 58px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.045s;
+}
+
+.delay18 {
+  transition-delay: 0.9s;
+}
+
+.transformed18 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.045s;
+}
+
+.pos19 {
+  position: absolute;
+  top: 38%;
+  left: 12%;
+  font-size: 55px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0475s;
+}
+
+.delay19 {
+  transition-delay: 0.95s;
+}
+
+.transformed19 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0475s;
+}
+
+.pos20 {
+  position: absolute;
+  top: 69%;
+  right: 12%;
+  font-size: 87px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.05s;
+}
+
+.delay20 {
+  transition-delay: 1s;
+}
+
+.transformed20 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.05s;
+}
+
+.pos21 {
+  position: absolute;
+  top: 14%;
+  left: 37%;
+  font-size: 18px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0525s;
+}
+
+.delay21 {
+  transition-delay: 1.05s;
+}
+
+.transformed21 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0525s;
+}
+
+.pos22 {
+  position: absolute;
+  top: 18%;
+  right: 18%;
+  font-size: 23px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.055s;
+}
+
+.delay22 {
+  transition-delay: 1.1s;
+}
+
+.transformed22 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.055s;
+}
+
+.pos23 {
+  position: absolute;
+  top: 31%;
+  left: 21%;
+  font-size: 79px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0575s;
+}
+
+.delay23 {
+  transition-delay: 1.15s;
+}
+
+.transformed23 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0575s;
+}
+
+.pos24 {
+  position: absolute;
+  top: 46%;
+  right: 12%;
+  font-size: 31px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.06s;
+}
+
+.delay24 {
+  transition-delay: 1.2s;
+}
+
+.transformed24 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.06s;
+}
+
+.pos25 {
+  position: absolute;
+  top: 85%;
+  left: 73%;
+  font-size: 79px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0625s;
+}
+
+.delay25 {
+  transition-delay: 1.25s;
+}
+
+.transformed25 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0625s;
+}
+
+.pos26 {
+  position: absolute;
+  top: 71%;
+  right: 38%;
+  font-size: 97px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.065s;
+}
+
+.delay26 {
+  transition-delay: 1.3s;
+}
+
+.transformed26 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.065s;
+}
+
+.pos27 {
+  position: absolute;
+  top: 90%;
+  left: 53%;
+  font-size: 46px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0675s;
+}
+
+.delay27 {
+  transition-delay: 1.35s;
+}
+
+.transformed27 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0675s;
+}
+
+.pos28 {
+  position: absolute;
+  top: 12%;
+  right: 61%;
+  font-size: 44px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.07s;
+}
+
+.delay28 {
+  transition-delay: 1.4s;
+}
+
+.transformed28 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.07s;
+}
+
+.pos29 {
+  position: absolute;
+  top: 90%;
+  left: 12%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0725s;
+}
+
+.delay29 {
+  transition-delay: 1.45s;
+}
+
+.transformed29 {
+  visibility: visible !important;
+  color: #1280e7;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0725s;
+}
+
+.pos30 {
+  position: absolute;
+  top: 55%;
+  right: 76%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.075s;
+}
+
+.delay30 {
+  transition-delay: 1.5s;
+}
+
+.transformed30 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.075s;
+}
+
+.pos31 {
+  position: absolute;
+  top: 12%;
+  left: 28%;
+  font-size: 84px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0775s;
+}
+
+.delay31 {
+  transition-delay: 1.55s;
+}
+
+.transformed31 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0775s;
+}
+
+.pos32 {
+  position: absolute;
+  top: 52%;
+  right: 34%;
+  font-size: 43px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.08s;
+}
+
+.delay32 {
+  transition-delay: 1.6s;
+}
+
+.transformed32 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.08s;
+}
+
+.pos33 {
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  font-size: 55px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0825s;
+}
+
+.delay33 {
+  transition-delay: 1.65s;
+}
+
+.transformed33 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0825s;
+}
+
+.pos34 {
+  position: absolute;
+  top: 84%;
+  right: 63%;
+  font-size: 50px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.085s;
+}
+
+.delay34 {
+  transition-delay: 1.7s;
+}
+
+.transformed34 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.085s;
+}
+
+.pos35 {
+  position: absolute;
+  top: 75%;
+  left: 72%;
+  font-size: 84px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0875s;
+}
+
+.delay35 {
+  transition-delay: 1.75s;
+}
+
+.transformed35 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0875s;
+}
+
+.pos36 {
+  position: absolute;
+  top: 25%;
+  right: 18%;
+  font-size: 83px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.09s;
+}
+
+.delay36 {
+  transition-delay: 1.8s;
+}
+
+.transformed36 {
+  visibility: visible !important;
+  color: #1280e7;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.09s;
+}
+
+.pos37 {
+  position: absolute;
+  top: 37%;
+  left: 71%;
+  font-size: 86px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0925s;
+}
+
+.delay37 {
+  transition-delay: 1.85s;
+}
+
+.transformed37 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0925s;
+}
+
+.pos38 {
+  position: absolute;
+  top: 12%;
+  right: 90%;
+  font-size: 85px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.095s;
+}
+
+.delay38 {
+  transition-delay: 1.9s;
+}
+
+.transformed38 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.095s;
+}
+
+.pos39 {
+  position: absolute;
+  top: 17%;
+  left: 69%;
+  font-size: 45px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0975s;
+}
+
+.delay39 {
+  transition-delay: 1.95s;
+}
+
+.transformed39 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.0975s;
+}
+
+.pos40 {
+  position: absolute;
+  top: 90%;
+  right: 12%;
+  font-size: 50px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1s;
+}
+
+.delay40 {
+  transition-delay: 2s;
+}
+
+.transformed40 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1s;
+}
+
+.pos41 {
+  position: absolute;
+  top: 22%;
+  left: 59%;
+  font-size: 43px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1025s;
+}
+
+.delay41 {
+  transition-delay: 2.05s;
+}
+
+.transformed41 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1025s;
+}
+
+.pos42 {
+  position: absolute;
+  top: 47%;
+  right: 71%;
+  font-size: 66px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.105s;
+}
+
+.delay42 {
+  transition-delay: 2.1s;
+}
+
+.transformed42 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.105s;
+}
+
+.pos43 {
+  position: absolute;
+  top: 41%;
+  left: 12%;
+  font-size: 23px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1075s;
+}
+
+.delay43 {
+  transition-delay: 2.15s;
+}
+
+.transformed43 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1075s;
+}
+
+.pos44 {
+  position: absolute;
+  top: 27%;
+  right: 12%;
+  font-size: 59px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.11s;
+}
+
+.delay44 {
+  transition-delay: 2.2s;
+}
+
+.transformed44 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.11s;
+}
+
+.pos45 {
+  position: absolute;
+  top: 79%;
+  left: 90%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1125s;
+}
+
+.delay45 {
+  transition-delay: 2.25s;
+}
+
+.transformed45 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1125s;
+}
+
+.pos46 {
+  position: absolute;
+  top: 39%;
+  right: 71%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.115s;
+}
+
+.delay46 {
+  transition-delay: 2.3s;
+}
+
+.transformed46 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.115s;
+}
+
+.pos47 {
+  position: absolute;
+  top: 12%;
+  left: 76%;
+  font-size: 37px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1175s;
+}
+
+.delay47 {
+  transition-delay: 2.35s;
+}
+
+.transformed47 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1175s;
+}
+
+.pos48 {
+  position: absolute;
+  top: 73%;
+  right: 90%;
+  font-size: 35px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.12s;
+}
+
+.delay48 {
+  transition-delay: 2.4s;
+}
+
+.transformed48 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.12s;
+}
+
+.pos49 {
+  position: absolute;
+  top: 79%;
+  left: 71%;
+  font-size: 51px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1225s;
+}
+
+.delay49 {
+  transition-delay: 2.45s;
+}
+
+.transformed49 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1225s;
+}
+
+.pos50 {
+  position: absolute;
+  top: 55%;
+  right: 20%;
+  font-size: 98px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.125s;
+}
+
+.delay50 {
+  transition-delay: 2.5s;
+}
+
+.transformed50 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.125s;
+}
+
+.pos51 {
+  position: absolute;
+  top: 39%;
+  left: 57%;
+  font-size: 88px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1275s;
+}
+
+.delay51 {
+  transition-delay: 2.55s;
+}
+
+.transformed51 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1275s;
+}
+
+.pos52 {
+  position: absolute;
+  top: 34%;
+  right: 71%;
+  font-size: 31px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.13s;
+}
+
+.delay52 {
+  transition-delay: 2.6s;
+}
+
+.transformed52 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.13s;
+}
+
+.pos53 {
+  position: absolute;
+  top: 63%;
+  left: 39%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1325s;
+}
+
+.delay53 {
+  transition-delay: 2.65s;
+}
+
+.transformed53 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1325s;
+}
+
+.pos54 {
+  position: absolute;
+  top: 34%;
+  right: 15%;
+  font-size: 69px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.135s;
+}
+
+.delay54 {
+  transition-delay: 2.7s;
+}
+
+.transformed54 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.135s;
+}
+
+.pos55 {
+  position: absolute;
+  top: 86%;
+  left: 82%;
+  font-size: 21px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1375s;
+}
+
+.delay55 {
+  transition-delay: 2.75s;
+}
+
+.transformed55 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1375s;
+}
+
+.pos56 {
+  position: absolute;
+  top: 90%;
+  right: 42%;
+  font-size: 54px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.14s;
+}
+
+.delay56 {
+  transition-delay: 2.8s;
+}
+
+.transformed56 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.14s;
+}
+
+.pos57 {
+  position: absolute;
+  top: 53%;
+  left: 78%;
+  font-size: 81px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1425s;
+}
+
+.delay57 {
+  transition-delay: 2.85s;
+}
+
+.transformed57 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1425s;
+}
+
+.pos58 {
+  position: absolute;
+  top: 12%;
+  right: 33%;
+  font-size: 43px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.145s;
+}
+
+.delay58 {
+  transition-delay: 2.9s;
+}
+
+.transformed58 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.145s;
+}
+
+.pos59 {
+  position: absolute;
+  top: 33%;
+  left: 54%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1475s;
+}
+
+.delay59 {
+  transition-delay: 2.95s;
+}
+
+.transformed59 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1475s;
+}
+
+.pos60 {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  font-size: 40px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+}
+
+.delay60 {
+  transition-delay: 3s;
+}
+
+.transformed60 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+}
+
+.pos61 {
+  position: absolute;
+  top: 59%;
+  left: 38%;
+  font-size: 56px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1525s;
+}
+
+.delay61 {
+  transition-delay: 3.05s;
+}
+
+.transformed61 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1525s;
+}
+
+.pos62 {
+  position: absolute;
+  top: 33%;
+  right: 50%;
+  font-size: 79px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.155s;
+}
+
+.delay62 {
+  transition-delay: 3.1s;
+}
+
+.transformed62 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.155s;
+}
+
+.pos63 {
+  position: absolute;
+  top: 61%;
+  left: 90%;
+  font-size: 46px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1575s;
+}
+
+.delay63 {
+  transition-delay: 3.15s;
+}
+
+.transformed63 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1575s;
+}
+
+.pos64 {
+  position: absolute;
+  top: 12%;
+  right: 62%;
+  font-size: 86px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.16s;
+}
+
+.delay64 {
+  transition-delay: 3.2s;
+}
+
+.transformed64 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.16s;
+}
+
+.pos65 {
+  position: absolute;
+  top: 12%;
+  left: 38%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1625s;
+}
+
+.delay65 {
+  transition-delay: 3.25s;
+}
+
+.transformed65 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1625s;
+}
+
+.pos66 {
+  position: absolute;
+  top: 22%;
+  right: 84%;
+  font-size: 51px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.165s;
+}
+
+.delay66 {
+  transition-delay: 3.3s;
+}
+
+.transformed66 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.165s;
+}
+
+.pos67 {
+  position: absolute;
+  top: 31%;
+  left: 90%;
+  font-size: 18px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1675s;
+}
+
+.delay67 {
+  transition-delay: 3.35s;
+}
+
+.transformed67 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1675s;
+}
+
+.pos68 {
+  position: absolute;
+  top: 43%;
+  right: 21%;
+  font-size: 80px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.17s;
+}
+
+.delay68 {
+  transition-delay: 3.4s;
+}
+
+.transformed68 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.17s;
+}
+
+.pos69 {
+  position: absolute;
+  top: 71%;
+  left: 82%;
+  font-size: 29px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1725s;
+}
+
+.delay69 {
+  transition-delay: 3.45s;
+}
+
+.transformed69 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1725s;
+}
+
+.pos70 {
+  position: absolute;
+  top: 12%;
+  right: 44%;
+  font-size: 28px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.175s;
+}
+
+.delay70 {
+  transition-delay: 3.5s;
+}
+
+.transformed70 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.175s;
+}
+
+.pos71 {
+  position: absolute;
+  top: 37%;
+  left: 51%;
+  font-size: 94px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1775s;
+}
+
+.delay71 {
+  transition-delay: 3.55s;
+}
+
+.transformed71 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1775s;
+}
+
+.pos72 {
+  position: absolute;
+  top: 50%;
+  right: 49%;
+  font-size: 88px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.18s;
+}
+
+.delay72 {
+  transition-delay: 3.6s;
+}
+
+.transformed72 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.18s;
+}
+
+.pos73 {
+  position: absolute;
+  top: 28%;
+  left: 74%;
+  font-size: 61px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1825s;
+}
+
+.delay73 {
+  transition-delay: 3.65s;
+}
+
+.transformed73 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1825s;
+}
+
+.pos74 {
+  position: absolute;
+  top: 62%;
+  right: 90%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.185s;
+}
+
+.delay74 {
+  transition-delay: 3.7s;
+}
+
+.transformed74 {
+  visibility: visible !important;
+  color: #1280e7;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.185s;
+}
+
+.pos75 {
+  position: absolute;
+  top: 78%;
+  left: 76%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1875s;
+}
+
+.delay75 {
+  transition-delay: 3.75s;
+}
+
+.transformed75 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1875s;
+}
+
+.pos76 {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  font-size: 52px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.19s;
+}
+
+.delay76 {
+  transition-delay: 3.8s;
+}
+
+.transformed76 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.19s;
+}
+
+.pos77 {
+  position: absolute;
+  top: 66%;
+  left: 81%;
+  font-size: 35px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1925s;
+}
+
+.delay77 {
+  transition-delay: 3.85s;
+}
+
+.transformed77 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1925s;
+}
+
+.pos78 {
+  position: absolute;
+  top: 90%;
+  right: 12%;
+  font-size: 90px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.195s;
+}
+
+.delay78 {
+  transition-delay: 3.9s;
+}
+
+.transformed78 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.195s;
+}
+
+.pos79 {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  font-size: 87px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1975s;
+}
+
+.delay79 {
+  transition-delay: 3.95s;
+}
+
+.transformed79 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1975s;
+}
+
+.pos80 {
+  position: absolute;
+  top: 84%;
+  right: 77%;
+  font-size: 31px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.delay80 {
+  transition-delay: 4s;
+}
+
+.transformed80 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.pos81 {
+  position: absolute;
+  top: 72%;
+  left: 89%;
+  font-size: 35px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2025s;
+}
+
+.delay81 {
+  transition-delay: 4.05s;
+}
+
+.transformed81 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2025s;
+}
+
+.pos82 {
+  position: absolute;
+  top: 61%;
+  right: 27%;
+  font-size: 18px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.205s;
+}
+
+.delay82 {
+  transition-delay: 4.1s;
+}
+
+.transformed82 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.205s;
+}
+
+.pos83 {
+  position: absolute;
+  top: 84%;
+  left: 87%;
+  font-size: 58px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2075s;
+}
+
+.delay83 {
+  transition-delay: 4.15s;
+}
+
+.transformed83 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2075s;
+}
+
+.pos84 {
+  position: absolute;
+  top: 39%;
+  right: 44%;
+  font-size: 99px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.21s;
+}
+
+.delay84 {
+  transition-delay: 4.2s;
+}
+
+.transformed84 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.21s;
+}
+
+.pos85 {
+  position: absolute;
+  top: 12%;
+  left: 79%;
+  font-size: 39px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2125s;
+}
+
+.delay85 {
+  transition-delay: 4.25s;
+}
+
+.transformed85 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2125s;
+}
+
+.pos86 {
+  position: absolute;
+  top: 12%;
+  right: 76%;
+  font-size: 26px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.215s;
+}
+
+.delay86 {
+  transition-delay: 4.3s;
+}
+
+.transformed86 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.215s;
+}
+
+.pos87 {
+  position: absolute;
+  top: 40%;
+  left: 84%;
+  font-size: 61px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2175s;
+}
+
+.delay87 {
+  transition-delay: 4.35s;
+}
+
+.transformed87 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2175s;
+}
+
+.pos88 {
+  position: absolute;
+  top: 90%;
+  right: 22%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.22s;
+}
+
+.delay88 {
+  transition-delay: 4.4s;
+}
+
+.transformed88 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.22s;
+}
+
+.pos89 {
+  position: absolute;
+  top: 74%;
+  left: 19%;
+  font-size: 24px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2225s;
+}
+
+.delay89 {
+  transition-delay: 4.45s;
+}
+
+.transformed89 {
+  visibility: visible !important;
+  color: #b3cf37;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2225s;
+}
+
+.pos90 {
+  position: absolute;
+  top: 55%;
+  right: 12%;
+  font-size: 23px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.225s;
+}
+
+.delay90 {
+  transition-delay: 4.5s;
+}
+
+.transformed90 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.225s;
+}
+
+.pos91 {
+  position: absolute;
+  top: 39%;
+  left: 70%;
+  font-size: 96px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2275s;
+}
+
+.delay91 {
+  transition-delay: 4.55s;
+}
+
+.transformed91 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2275s;
+}
+
+.pos92 {
+  position: absolute;
+  top: 82%;
+  right: 45%;
+  font-size: 74px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.23s;
+}
+
+.delay92 {
+  transition-delay: 4.6s;
+}
+
+.transformed92 {
+  visibility: visible !important;
+  color: #ed7b08;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.23s;
+}
+
+.pos93 {
+  position: absolute;
+  top: 42%;
+  left: 73%;
+  font-size: 77px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2325s;
+}
+
+.delay93 {
+  transition-delay: 4.65s;
+}
+
+.transformed93 {
+  visibility: visible !important;
+  color: #37cf81;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2325s;
+}
+
+.pos94 {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  font-size: 37px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.235s;
+}
+
+.delay94 {
+  transition-delay: 4.7s;
+}
+
+.transformed94 {
+  visibility: visible !important;
+  color: #cf3737;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.235s;
+}
+
+.pos95 {
+  position: absolute;
+  top: 72%;
+  left: 84%;
+  font-size: 73px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2375s;
+}
+
+.delay95 {
+  transition-delay: 4.75s;
+}
+
+.transformed95 {
+  visibility: visible !important;
+  color: #c537cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2375s;
+}
+
+.pos96 {
+  position: absolute;
+  top: 50%;
+  right: 37%;
+  font-size: 69px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.24s;
+}
+
+.delay96 {
+  transition-delay: 4.8s;
+}
+
+.transformed96 {
+  visibility: visible !important;
+  color: #0315b9;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.24s;
+}
+
+.pos97 {
+  position: absolute;
+  top: 60%;
+  left: 61%;
+  font-size: 74px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2425s;
+}
+
+.delay97 {
+  transition-delay: 4.85s;
+}
+
+.transformed97 {
+  visibility: visible !important;
+  color: #dcf755;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2425s;
+}
+
+.pos98 {
+  position: absolute;
+  top: 83%;
+  right: 90%;
+  font-size: 16px;
+  color: black;
+  transform: rotate(-15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.245s;
+}
+
+.delay98 {
+  transition-delay: 4.9s;
+}
+
+.transformed98 {
+  visibility: visible !important;
+  color: #4137cf;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.245s;
+}
+
+.pos99 {
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  font-size: 76px;
+  color: black;
+  transform: rotate(15deg);
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2475s;
+}
+
+.delay99 {
+  transition-delay: 4.95s;
+}
+
+.transformed99 {
+  visibility: visible !important;
+  color: #cf378b;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2475s;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+}/*# sourceMappingURL=start.css.map */
