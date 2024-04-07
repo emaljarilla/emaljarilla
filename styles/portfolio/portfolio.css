@@ -164,6 +164,7 @@ html {
 @media screen and (max-width: 768px) {
   .img-header .bienvenido p {
     font-size: var(--text);
+    padding-left: 5px;
   }
 }
 .img-header .bienvenido .primerContacto {
@@ -383,17 +384,19 @@ html {
     filter: brightness(30%);
   }
 }
-.estudios .estuContainer .estu-galeria .estuImages:hover img {
-  filter: brightness(50%);
-}
-.estudios .estuContainer .estu-galeria .estuImages:hover .estuInstitucion, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros2 {
-  color: #ff7b3d;
-  display: block;
-  font-size: 1.25vw;
-}
-.estudios .estuContainer .estu-galeria .estuImages:hover .estunombre, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros1 {
-  display: block;
-  font-size: 1.25vw;
+@media screen and (min-width: 768px) {
+  .estudios .estuContainer .estu-galeria .estuImages:hover img {
+    filter: brightness(50%);
+  }
+  .estudios .estuContainer .estu-galeria .estuImages:hover .estuInstitucion, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros2 {
+    color: #ff7b3d;
+    display: block;
+    font-size: 1.25vw;
+  }
+  .estudios .estuContainer .estu-galeria .estuImages:hover .estunombre, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros1 {
+    display: block;
+    font-size: 1.25vw;
+  }
 }
 .estudios .estuContainer .estu-galeria .estuImages img {
   width: 100%;

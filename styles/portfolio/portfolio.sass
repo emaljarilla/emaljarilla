@@ -73,7 +73,7 @@ html
 // >=>  >>  >=> >>   >=>   >=>  >=> >=>  >=>
 // >=>  >>  >=> >>===>>=>  >=>  >=> >=>  >=>
 // >=>  >>  >=> >>         >=>  >=> >=>  >=>
-//>==>  >>  >=>  >====>   >==>  >=>   >==>=>
+//>==>  >>  >=>  >====>   >==>  >=>   >==>=> hover
 
 #inicio
     position: relative
@@ -131,7 +131,7 @@ html
 //>=>  >=>  >>  >=> >=>    >=>  >=>   >=> >>===>>=>  >=>  >=>  >=>  >=> >>===>>=> >=>    >=>  >>  >=> >>===>>=>  >=>
 //>=>  >=>  >>  >=>  >=>   >=>   >=>  >=> >>         >=>  >=>  >>   >=> >>         >=>   >=>  >>  >=> >>         >=>
 //>=> >==>  >>  >=>   >==>>>==>      >=>   >====>   >==>  >=>  >=>  >=>  >====>     >==>>>==>  >=>>=>  >====>   >==>
-                                >=>
+//                                >=>
 
 .img-header
     position: relative
@@ -168,6 +168,7 @@ html
             margin-top: 20px
             @media screen and (max-width: 768px)
                   font-size: var(--text)
+                  padding-left: 5px
         & .primerContacto 
             display: flex
             margin-top: 8px
@@ -351,16 +352,17 @@ html
                     width: 90%
                     img
                         filter: brightness(30%)
-                &:hover 
-                    & img
-                        filter: brightness(50%)
-                    & .estuInstitucion, & .estuOtros2
-                        color: #ff7b3d
-                        display: block
-                        font-size: 1.25vw
-                    & .estunombre , & .estuOtros1
-                        display: block
-                        font-size: 1.25vw
+                @media screen and (min-width: 768px)
+                    &:hover 
+                        & img
+                            filter: brightness(50%)
+                        & .estuInstitucion, & .estuOtros2
+                            color: #ff7b3d
+                            display: block
+                            font-size: 1.25vw
+                        & .estunombre , & .estuOtros1
+                            display: block
+                            font-size: 1.25vw
 
                 & img
                     width: 100%
