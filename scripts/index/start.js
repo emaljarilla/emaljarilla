@@ -1,3 +1,4 @@
+
 const start = document.querySelector('a');
 const body = document.querySelector('body');
 function mozillaORie() {
@@ -28,8 +29,9 @@ function creaIndex() {
     alertarInicio(12000);
     alertarInicio(19000);
     alertarInicio(26000);
-    objCreado.open("GET", "../document/hola mundo.json", true);
+    objCreado.open("GET", "./document/hola_mundo.json", true);
     objCreado.send();
+    console.log(objCreado.readyState)
     objCreado.onreadystatechange = function () {
         if (objCreado.readyState == 4) {
             arryJson = JSON.parse(objCreado.responseText);
