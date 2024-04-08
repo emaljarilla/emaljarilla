@@ -270,7 +270,8 @@ html {
   cursor: pointer;
   padding: 8px;
   font-size: var(--text);
-  color: var(--cOscu);
+  background-color: var(--cPrin);
+  color: var(--cCla);
   border-radius: 24px;
   transition: 0.45s;
 }
