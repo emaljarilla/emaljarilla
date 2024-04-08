@@ -627,4 +627,97 @@ html {
   .conocimientos .conocimientosMain .conoContent .front, .conocimientos .conocimientosMain .conoContent .back, .conocimientos .conocimientosMain .conoContent .forma, .conocimientos .conocimientosMain .conoContent .herra, .conocimientos .conocimientosMain .conoContent .otros {
     width: 100%;
   }
+}
+
+.experiencia {
+  width: 100%;
+  height: 700px;
+  background-image: url("../../asets/img/experiencia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 100px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .experiencia {
+    height: 1700px;
+  }
+}
+.experiencia .experienciaDeg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 59, 68, 0.7490196078);
+}
+.experiencia .expMain {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 90px;
+}
+.experiencia .expMain .tittelexp {
+  border: 2px solid var(--cCla);
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  height: 60px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .experiencia .expMain .tittelexp {
+    width: 75%;
+  }
+}
+.experiencia .expMain .tittelexp h2 {
+  font-weight: 600;
+  color: var(--cCla);
+  font-size: var(--tittle);
+}
+@media screen and (max-width: 768px) {
+  .experiencia .expMain .tittelexp h2 {
+    font-size: var(--tiMob);
+  }
+}
+.experiencia .expMain .tittelexp hr {
+  background-color: var(--cCla);
+  width: 55%;
+  height: 1px;
+  margin: -5px auto;
+}
+@media screen and (max-width: 768px) {
+  .experiencia .expMain .tittelexp hr {
+    width: 80%;
+  }
+}
+.experiencia .expMain .expcontent {
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.experiencia .expMain .expcontent table {
+  border: 3px solid var(--cCla);
+  background: linear-gradient(180deg, var(--cPrin), var(--cClaInteso) 99.5%);
+  color: var(--cCla);
+}
+.experiencia .expMain .expcontent table tr:not(tr:last-child) th {
+  font-size: var(--tittle);
+  padding: 12px;
+  border-bottom: 2px dashed;
+}
+.experiencia .expMain .expcontent table tr:not(tr:last-child) th:not(th:last-child) {
+  border-right: 2px dashed;
+}
+.experiencia .expMain .expcontent table tr:not(tr:last-child) td {
+  border-bottom: 2px dashed;
+}
+.experiencia .expMain .expcontent table tr td:not(td:last-child) {
+  padding: 12px;
+  border-right: 2px dashed;
 }/*# sourceMappingURL=portfolio.css.map */
