@@ -633,16 +633,26 @@ html
                 border: 3px solid var(--cCla)
                 background: linear-gradient(180deg, var(--cPrin), var(--cClaInteso) 99.5%)
                 color: var(--cCla)
+                @media screen and (max-width: 768px)
+                    width: 400px
+                    padding: 0px
+                    margin: 0 120px
+
                 & tr:not(tr:last-child)
                     & th
                         font-size: var(--tittle)
                         padding: 12px 
                         border-bottom: 2px dashed
+                        @media screen and (max-width: 768px)
+                            font-size: var(--texMob)
                     & th:not(th:last-child)
                         
                         border-right: 2px dashed
                     & td 
+                        height: auto
                         border-bottom: 2px dashed
+                        @media screen and (max-width: 768px)
+                            font-size: var(--texMob)
                     
                 & tr td:not(td:last-child)
                     padding: 12px  
