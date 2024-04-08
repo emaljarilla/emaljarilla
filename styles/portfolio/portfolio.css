@@ -721,6 +721,7 @@ html {
 @media screen and (max-width: 768px) {
   .experiencia .expMain .expcontent table tr:not(tr:last-child) th {
     font-size: var(--texMob);
+    font-weight: bolder;
   }
 }
 .experiencia .expMain .expcontent table tr:not(tr:last-child) th:not(th:last-child) {
@@ -740,7 +741,7 @@ html {
   border-right: 2px dashed;
 }
 @media screen and (max-width: 768px) {
-  .experiencia .expMain .expcontent table tr td:not(td:last-child) {
+  .experiencia .expMain .expcontent table tr td {
     font-size: var(--texMob);
   }
 }/*# sourceMappingURL=portfolio.css.map */
