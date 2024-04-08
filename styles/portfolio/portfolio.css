@@ -303,7 +303,7 @@ html {
 
 .estudios {
   width: 100%;
-  height: 60vw;
+  height: 80vw;
   background-image: url("../../asets/img/estudios.jpg");
   background-position: center;
   background-size: cover;
@@ -311,9 +311,19 @@ html {
   margin-top: 100px;
   position: relative;
 }
+@media screen and (max-width: 992px) {
+  .estudios {
+    height: 90vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .estudios {
-    height: 1800px;
+    height: 380vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .estudios {
+    height: 400vw;
   }
 }
 .estudios .estudiosDeg {

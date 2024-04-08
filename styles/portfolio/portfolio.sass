@@ -292,15 +292,19 @@ html
 
 .estudios
     width: 100%
-    height: calc( 30vw * ceil(6/3) )
+    height: calc( 40vw * ceil(6/3) )
     background-image: url("../../asets/img/estudios.jpg")
     background-position: center
     background-size: cover
     background-attachment: fixed
     margin-top: 100px
     position: relative
+    @media screen and (max-width: 992px)
+        height: calc(  45vw * ceil(6/3)  )
     @media screen and (max-width: 768px)
-        height: calc(  300px * 6  )
+        height: calc(  190vw * ceil(6/3)  )
+    @media screen and (max-width: 576px)
+        height: calc(  200vw * ceil(6/3)  )
     & .estudiosDeg
         position: absolute
         top: 0px
