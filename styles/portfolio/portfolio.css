@@ -641,7 +641,7 @@ html {
 }
 @media screen and (max-width: 768px) {
   .experiencia {
-    height: 1700px;
+    height: 900px;
   }
 }
 .experiencia .experienciaDeg {
@@ -738,4 +738,9 @@ html {
 .experiencia .expMain .expcontent table tr td:not(td:last-child) {
   padding: 12px;
   border-right: 2px dashed;
+}
+@media screen and (max-width: 768px) {
+  .experiencia .expMain .expcontent table tr td:not(td:last-child) {
+    font-size: var(--texMob);
+  }
 }/*# sourceMappingURL=portfolio.css.map */
