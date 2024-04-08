@@ -424,11 +424,13 @@ html {
   top: 30px;
   left: 30px;
   font-weight: 300;
+  font-size: 1.25vw;
   text-shadow: 0px 0px 20px white;
 }
 @media screen and (max-width: 768px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuInstitucion {
     display: block;
+    font-size: var(--text);
   }
 }
 .estudios .estuContainer .estu-galeria .estuImages .estunombre {
@@ -439,7 +441,7 @@ html {
   position: absolute;
   top: 70px;
   left: 30px;
-  font-size: var(--text);
+  font-size: 1.25vw;
   font-weight: 300;
   border-radius: 8px;
   color: var(--cCla);
@@ -447,6 +449,7 @@ html {
 @media screen and (max-width: 768px) {
   .estudios .estuContainer .estu-galeria .estuImages .estunombre {
     display: block;
+    font-size: var(--text);
     left: 20px;
   }
 }
@@ -456,13 +459,14 @@ html {
   position: absolute;
   bottom: 70px;
   left: 30px;
-  font-size: var(--text);
+  font-size: 1.25vw;
   font-weight: 300;
   color: var(--cCla);
 }
 @media screen and (max-width: 768px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuOtros1 {
     display: block;
+    font-size: var(--text);
   }
 }
 .estudios .estuContainer .estu-galeria .estuImages .estuOtros2 {
@@ -470,7 +474,8 @@ html {
   text-shadow: 0px 0px 20px white;
   display: none;
   position: absolute;
-  bottom: 70px;
+  font-size: 1.25vw;
+  bottom: 7%;
   left: 40%;
   font-weight: 300;
 }
@@ -479,6 +484,7 @@ html {
     display: block;
     bottom: 30px;
     left: 30%;
+    font-size: var(--text);
   }
 }
 .estudios .estuContainer .estu-galeria span {
