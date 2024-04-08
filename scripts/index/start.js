@@ -43,7 +43,7 @@ function creaIndex() {
                 const ele1 = document.createElement("div");
                 if (arryJson[i] != undefined) {
                     ele1.innerHTML = arryJson[i];
-                    ele1.className = (`pos${contador} delay${contador} invisible`);
+                    ele1.className = (`pos${contador} delay${(contador+5)} invisible`);
                     ele1.id = `pos${contador}`
                     body.appendChild(ele1);
                 }

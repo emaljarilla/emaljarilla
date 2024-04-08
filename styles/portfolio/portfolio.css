@@ -750,4 +750,41 @@ html {
   .experiencia .expMain .expcontent table tr td {
     font-size: var(--texMob);
   }
+}
+
+.otherpage {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  position: relative;
+}
+.otherpage a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: var(--cPrin);
+}
+.otherpage h2 {
+  position: absolute;
+  top: -30px;
+}
+@media screen and (max-width: 768px) {
+  .otherpage h2 {
+    font-weight: var(--text);
+    left: 28%;
+  }
+}
+.otherpage .otrherContact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.otherpage .eleccion {
+  margin: 0;
+}
+
+.fotcopy {
+  display: flex;
+  gap: 15px;
+  text-align: center;
 }/*# sourceMappingURL=portfolio.css.map */
