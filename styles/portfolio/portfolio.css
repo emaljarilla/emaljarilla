@@ -14,7 +14,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -77,7 +77,6 @@ html {
 .menu .logoCv h1 a {
   text-decoration: none;
   font-size: var(--tittle);
-  font-weight: 400px;
   color: var(--cOscu);
 }
 @media screen and (max-width: 768px) {
@@ -149,7 +148,7 @@ html {
 .img-header .bienvenido h2 {
   font-size: var(--tittle);
   color: var(--cCla);
-  font-weight: 300px;
+  font-weight: 300;
 }
 @media screen and (max-width: 768px) {
   .img-header .bienvenido h2 {
@@ -342,7 +341,7 @@ html {
   }
 }
 .estudios .estuContainer .estudios-tittel h2 {
-  font-weight: 600px;
+  font-weight: 600;
   color: var(--cCla);
   font-size: var(--tittle);
 }
@@ -395,7 +394,6 @@ html {
   }
   .estudios .estuContainer .estu-galeria .estuImages:hover .estunombre, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros1 {
     display: block;
-    font-size: 1.25vw;
   }
 }
 .estudios .estuContainer .estu-galeria .estuImages img {
@@ -409,7 +407,7 @@ html {
   position: absolute;
   top: 30px;
   left: 30px;
-  font-weight: 300px;
+  font-weight: 300;
   text-shadow: 0px 0px 20px white;
 }
 @media screen and (max-width: 768px) {
@@ -426,7 +424,7 @@ html {
   top: 70px;
   left: 30px;
   font-size: var(--text);
-  font-weight: 300px;
+  font-weight: 300;
   border-radius: 8px;
   color: var(--cCla);
 }
@@ -443,7 +441,7 @@ html {
   bottom: 70px;
   left: 30px;
   font-size: var(--text);
-  font-weight: 300px;
+  font-weight: 300;
   color: var(--cCla);
 }
 @media screen and (max-width: 768px) {
@@ -458,7 +456,7 @@ html {
   position: absolute;
   bottom: 70px;
   left: 40%;
-  font-weight: 300px;
+  font-weight: 300;
 }
 @media screen and (max-width: 768px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuOtros2 {
@@ -514,7 +512,7 @@ html {
   padding: 10px;
   text-align: center;
   width: 50%;
-  height: 40px;
+  height: 60px;
   margin: auto;
 }
 @media screen and (max-width: 768px) {
@@ -523,7 +521,7 @@ html {
   }
 }
 .conocimientos .conocimientosMain .tittelCono h2 {
-  font-weight: 600px;
+  font-weight: 600;
   color: var(--cCla);
   font-size: var(--tittle);
 }
@@ -610,6 +608,11 @@ html {
 .conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq img {
   width: 60px;
   height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq img {
+    margin-left: 15px;
+  }
 }
 .conocimientos .conocimientosMain .conoContent .front .contFoo, .conocimientos .conocimientosMain .conoContent .back .contFoo, .conocimientos .conocimientosMain .conoContent .forma .contFoo, .conocimientos .conocimientosMain .conoContent .herra .contFoo, .conocimientos .conocimientosMain .conoContent .otros .contFoo {
   grid-area: cFoot;

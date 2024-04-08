@@ -27,7 +27,7 @@
 *
     margin: 0
     padding: 0
-    box-sizing: 0
+    box-sizing: border-box
     font-family: Roboto, Helvetica, sans-serif
 //              >=>                     >=>                                                   >=>  >=>
 //            >>                        >=>                                                   >=>  >=>
@@ -97,7 +97,6 @@ html
         & h1 a
             text-decoration: none
             font-size: var(--tittle)
-            font-weight: 400px
             color: var(--cOscu)
         @media screen and (max-width: 768px)
             margin-left: 10px
@@ -159,7 +158,7 @@ html
         & h2 
             font-size: var(--tittle)
             color: var(--cCla)
-            font-weight: 300px
+            font-weight: 300
             @media screen and (max-width: 768px)
                   font-size: var(--tiMob)
         & p
@@ -322,7 +321,7 @@ html
             @media screen and (max-width: 768px)
                 width: 75%
             & h2
-                font-weight: 600px
+                font-weight: 600
                 color: var(--cCla)
                 font-size: var(--tittle)
                 
@@ -362,7 +361,7 @@ html
                             font-size: 1.25vw
                         & .estunombre , & .estuOtros1
                             display: block
-                           // font-size: 1.25vw
+                           
 
                 & img
                     width: 100%
@@ -374,7 +373,7 @@ html
                     position: absolute
                     top: 30px
                     left: 30px
-                    font-weight: 300px
+                    font-weight: 300
                     text-shadow: 0px 0px 20px white
                     @media screen and (max-width: 768px)
                         display: block
@@ -388,7 +387,7 @@ html
                     top: 70px
                     left: 30px
                     font-size: var(--text)
-                    font-weight: 300px
+                    font-weight: 300
                     border-radius: 8px
                     color: var(--cCla)
                     @media screen and (max-width: 768px)
@@ -401,7 +400,7 @@ html
                     bottom: 70px
                     left: 30px
                     font-size: var(--text)
-                    font-weight: 300px
+                    font-weight: 300
                     color: var(--cCla)
                     @media screen and (max-width: 768px)
                         display: block
@@ -412,7 +411,7 @@ html
                     position: absolute
                     bottom: 70px
                     left: 40%
-                    font-weight: 300px
+                    font-weight: 300
                     @media screen and (max-width: 768px)
                         display: block
                         bottom: 30px
@@ -468,13 +467,13 @@ html
             padding: 10px
             text-align: center
             width: 50%
-            height: 40px
+            height: 60px
             margin: auto
             
             @media screen and (max-width: 768px)
                 width: 75%
             & h2
-                font-weight: 600px
+                font-weight: 600
                 color: var(--cCla)
                 font-size: var(--tittle)
                 
@@ -555,7 +554,8 @@ html
                             & img
                                 width: 60px
                                 height: 60px
-                                
+                                @media screen and (max-width: 768px)
+                                    margin-left: 15px
                 & .contFoo
                     grid-area: cFoot
                     margin: auto auto 15px auto
