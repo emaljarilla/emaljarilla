@@ -13,32 +13,32 @@ masInfo.addEventListener('click', () => {
 })
 //botón otras páginas
 let other = document.getElementById("other_page");
+let contador=1;
 
 other.addEventListener('click', () => {
-    let eleccion = document.querySelector(".eleccion");
-    switch (other.value) {
-        case "1":
-            eleccion.href = "./portfolio.html"
-            eleccion.innerHTML = "ir al básico"
-            break;
-        case "2":
-            eleccion.href = "./pagina_en_obras.html"
-            eleccion.innerHTML = "ir a bootstrap"
-            break;
-        case "3":
-            eleccion.href = "./pagina_en_obras.html"
-            eleccion.innerHTML = "ir a react"
-            break;
-        case "4":
-            eleccion.href = "./pagina_en_obras.html"
-            eleccion.innerHTML = "ver angular"
-            break;
-        case "5":
-            eleccion.href = "./pagina_en_obras.html"
-            eleccion.innerHTML = "ver portfolio 2.0"
-            break;
-        default:
-            alert("Ha dado un error la eleccion");
-            break;
+    
+    if(contador%2==0){
+        
+        switch (other.value) {
+            
+            case "2":
+                other.value = "1";
+                window.open("./pagina_en_obras.html","_self");
+                break;
+            case "3":
+                other.value = "1";
+                window.open("./pagina_en_obras.html","_self");
+                break;
+            case "4":
+                other.value = "1";
+                window.open("./pagina_en_obras.html","_self");
+                break;
+            case "5":
+                other.value = "1";
+                window.open("./pagina_en_obras.html","_self");
+                break;
+        }
+        ++contador;
     }
+    ++contador;
 })

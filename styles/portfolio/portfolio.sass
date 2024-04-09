@@ -679,29 +679,47 @@ html
 
 .otherpage
     width: 100%
-    height: 30px
-    display: flex
-    justify-content: space-around
-    margin: 50px 30px
+    height: 300px
     position: relative
-    
-    & a
-        margin: 0 12px
-        text-decoration: none
-        color: var(--cPrin)
-
-    & h2
+    background: linear-gradient(180deg, var(--cCla) 45.5%, var(--cPrin) 75%)
+               
+    & .otherContact
         position: absolute
-        top: -30px
-        @media screen and (max-width: 768px)
-            font-weight: var(--text)
-            left: 28%
-    & .otrherContact
+        left: 0
+        width: 100%
+        height: 25%
+        top:75%
+        background: var(--cPrin)
+        padding: 1% 5% 
+        & .posother
+            display: flex
+            @media screen and (max-width: 768px)
+                justify-content: space-between
+        & .posother a
+            text-decoration: none
+            color: var(--cCla)
+        & .posother a:last-child
+            margin-left: 25px
+    & .fotcopy
+        position: absolute
         display: flex
-        flex-wrap: wrap
-    & .eleccion
-        margin: 0
-.fotcopy
-    display: flex
-    gap: 15px
-    text-align: center
+        justify-content: end
+        width: 100%
+        height: 25%
+        top:75%
+        color: var(--cCla)
+        padding: 1% 5% 
+        @media screen and (max-width: 768px)
+            top:90%
+            justify-content: center
+    & .otcontent
+        width: 100%
+        
+        display: flex
+        flex-direction: column
+        justfy-content: center
+        & h2
+            margin: 50px auto 0 auto
+        & #other_page
+            margin: auto
+            width: 150px
