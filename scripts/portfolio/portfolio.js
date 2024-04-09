@@ -8,7 +8,9 @@ enlaces.forEach((elementos)=>{
         })
         event.target.classList.add("partActive");
         menu.style.left="-100%";
-        iconX.classList.toggle('fa-xmark');
+        iconX.classList.add('fa-fa-bars');
+        iconX.classList.remove('fa-xmark');
+        estadoBurquer=true;
     })
 })
 
@@ -78,15 +80,22 @@ let estadoBurquer = true;
 
 btnBurger.addEventListener('click',()=>{
     
-    iconX.classList.toggle('fa-xmark');
+   
+    
+   
     if(estadoBurquer){
         menu.style.left="0%";
         estadoBurquer=false;
+        iconX.classList.remove('fa-fa-bars');
+        iconX.classList.add('fa-xmark');
     }else{        
         menu.style.left="-100%";
         estadoBurquer=true;
+        iconX.classList.add('fa-fa-bars');
+        iconX.classList.remove('fa-xmark');
 
     }
+    
   
 })
 
