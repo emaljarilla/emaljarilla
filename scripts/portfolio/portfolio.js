@@ -7,7 +7,8 @@ enlaces.forEach((elementos)=>{
             borrado.classList.remove("partActive")
         })
         event.target.classList.add("partActive");
-
+        menu.style.left="-100%";
+        iconX.classList.toggle('fa-xmark');
     })
 })
 
@@ -67,6 +68,30 @@ masInfo.addEventListener('click', () => {
         mostarMenosInfo.className = "masInfo"
     }
 })
+
+//
+
+let btnBurger =document.querySelector('.burguer');
+let iconX = document.querySelector('.fa-bars');
+let menu = document.querySelector('.lista-content');
+let estadoBurquer = true; 
+
+btnBurger.addEventListener('click',()=>{
+    
+    iconX.classList.toggle('fa-xmark');
+    if(estadoBurquer){
+        menu.style.left="0%";
+        estadoBurquer=false;
+    }else{        
+        menu.style.left="-100%";
+        estadoBurquer=true;
+
+    }
+  
+})
+
+
+
 //botón otras páginas
 let other = document.getElementById("other_page");
 let contador=1;

@@ -12,6 +12,7 @@
     --cPrinCla:#15a4bc
     --cCla:#eaeaea
     --cClaInteso:#969696
+    --cContrate: #7c0d0d
     --tittle:35px
     --tiMob:30px
     --text:19px
@@ -56,7 +57,7 @@ html
     border-color: transparent transparent var(--cCla) transparent 
     border-style: solid  
     z-index: 9999
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 992px)
         border-width: 0 0 3.5vh 100vw
 .bisel-up
     position: absolute
@@ -66,7 +67,7 @@ html
     border-color: transparent var(--cCla) transparent transparent  
     border-style: solid
     z-index: 9999
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 992px)
         border-width: 0 100vw 3.5vh 0 
 
 //>===>>=>>==>    >==>    >==>>==>  >=>  >=>
@@ -92,13 +93,33 @@ html
     align-items: center
     z-index: 99999
     transition: 0.3s
+    & .burguer
+        display: none
+    @media screen and (max-width: 992px)
+        & .burguer    
+            display: block
+            color: var(--cPrin)
+            position: absolute
+            top: 35px
+            right: 30px
+            font-size: var(--tiMob)
+            cursor: pointer
+            transition: 0.5s
+            width: 35px
+            text-align: center
+            border-radius: 5px
+            &:hover
+                color: var(--cCla)
+                background: var(--cPrin)
+              
+
     & .logoCv
         margin-left: 20px
         & h1 a
             text-decoration: none
             font-size: var(--tittle)
             color: var(--cOscu)
-        @media screen and (max-width: 768px)
+        @media screen and (max-width: 992px)
             margin-left: 10px
             & h1 a
                 font-size: var(--tiMob)
@@ -116,13 +137,44 @@ html
                 font-size: var(--text)
                 border-radius: 24px
                 transition: 0.45s
-                @media screen and (max-width: 768px)         
+                @media screen and (max-width: 992px)         
                     font-size: var(--texMob)
                    
                 &:hover, &.partActive
                     background-color: var(--cPrin)
                     color: var(--cCla)
-                    
+        @media screen and (max-width: 992px)
+            position: fixed
+            top: 110px
+            left: -100%
+            background: var(--cCla)
+            width: 100%
+            height: calc(100vh - 110px)
+            & .lista
+                width: 100%
+                height: 100%
+                display: flex
+                
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                border-top: 5px solid var(--cPrin)
+                & li
+                    width: 75%
+                    padding-top: 60px
+                    border-bottom: 2px solid var(--cPrin)
+                    display: flex
+                    justify-content: center
+                    & a
+                        padding: 12px 0
+                        font-size: 20px
+                        &.partActive
+                            background: none 
+                            color: var(--cPrin)
+                        &:hover
+                            background: none 
+                            color: var(--cPrinCla)   
+
                 
 //                                                                                                >=>
 // >>                                                          >=>                                >=>
@@ -144,7 +196,7 @@ html
     background-attachment: fixed
     background-position: center
     background-size: cover
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 992px)
         height: 50vh
     & .bienvenido
         position: absolute
@@ -157,19 +209,19 @@ html
         justify-content: center
         align-items: center
         flex-direction: column
-        @media screen and (max-width: 768px)
+        @media screen and (max-width: 992px)
             height: 50vh
         & h2 
             font-size: var(--tittle)
             color: var(--cCla)
             font-weight: 300
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                   font-size: var(--tiMob)
         & p
             font-size: var(--text)
             color: var(--cCla)
             margin-top: 20px
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                   font-size: var(--text)
                   padding-left: 5px
         & .primerContacto 
@@ -195,7 +247,7 @@ html
             outline: none
             transition: 0.5s
             text-align: center
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                 display: none
             &:hover
                 background: var(--cClaInteso)
@@ -227,7 +279,7 @@ html
                 margin-left: 50px 
                 color: var(--cOscu)
                 font-size: var(--tittle)
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     margin-left: 15px
             & .flecha
                 position: absolute
@@ -239,7 +291,7 @@ html
                 color: var(--cOscu)
                 border-radius: 24px
                 transition: 0.45s
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     left: 70%
                     border-radius: 24px
                     border-color: var(--cPrin)
@@ -262,7 +314,7 @@ html
                 color: var(--cCla)
                 border-radius: 24px
                 transition: 0.45s
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     left: 70%
                     border-radius: 24px
                     border-color: var(--cPrin)
@@ -313,7 +365,7 @@ html
         width: 90%
         margin: auto 
         padding-top: 90px
-        @media screen and (max-width: 768px)
+        @media screen and (max-width: 992px)
             padding-top: 50px
         & .estudios-tittel
             border: 2px solid var(--cCla)
@@ -322,21 +374,21 @@ html
             width: 50%
             margin: auto
             
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                 width: 75%
             & h2
                 font-weight: 600
                 color: var(--cCla)
                 font-size: var(--tittle)
                 
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     font-size: var(--tiMob)
             & hr
                 background-color: var(--cCla)
                 width: 50%
                 height: 1px
                 margin: auto
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     width: 80%
         & .estu-galeria
             width: 100%
@@ -352,11 +404,11 @@ html
                 border: 2.5px solid var(--cCla)
                 border-radius: 8px 
                 position: relative
-                @media screen and (max-width: 768px)
-                    width: 90%
+                @media screen and (max-width: 992px)
+                    width: 450px
                     img
                         filter: brightness(30%)
-                @media screen and (min-width: 768px)
+                @media screen and (min-width: 992px)
                     &:hover 
                         & img
                             filter: brightness(50%)
@@ -381,7 +433,7 @@ html
                     font-weight: 300
                     font-size:  1.25vw
                     text-shadow: 0px 0px 20px white
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         display: block
                         font-size: var(--text)
                     
@@ -397,7 +449,7 @@ html
                     font-weight: 300
                     border-radius: 8px
                     color: var(--cCla)
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         display: block
                         font-size: var(--text)
                         left: 20px
@@ -410,7 +462,7 @@ html
                     font-size:  1.25vw
                     font-weight: 300
                     color: var(--cCla)
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         display: block
                         font-size: var(--text)
                 & .estuOtros2
@@ -422,7 +474,7 @@ html
                     bottom: 7%
                     left: 40%
                     font-weight: 300
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         display: block
                         bottom: 30px
                         left: 30%
@@ -479,21 +531,21 @@ html
             height: 60px
             margin: auto
             
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                 width: 75%
             & h2
                 font-weight: 600
                 color: var(--cCla)
                 font-size: var(--tittle)
                 
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     font-size: var(--tiMob)
             & hr
                 background-color: var(--cCla)
                 width: 55%
                 height: 1px
                 margin: -5px auto
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     width: 80%
         & .conoContent
             width: 100%//aqui
@@ -564,14 +616,14 @@ html
                             & img
                                 width: 60px
                                 height: 60px
-                                @media screen and (max-width: 768px)
+                                @media screen and (max-width: 992px)
                                     margin-left: 15px
                 & .contFoo
                     grid-area: cFoot
                     margin: auto auto 15px auto
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         display: none
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     width:100%
                 
 //>=======>
@@ -613,21 +665,21 @@ html
             height: 60px
             margin: auto
             
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                 width: 75%
             & h2
                 font-weight: 600
                 color: var(--cCla)
                 font-size: var(--tittle)
                 
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     font-size: var(--tiMob)
             & hr
                 background-color: var(--cCla)
                 width: 55%
                 height: 1px
                 margin: -5px auto
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     width: 80%
         & .expcontent
             width: 100%
@@ -641,7 +693,7 @@ html
                 border: 3px solid var(--cCla)
                 background: linear-gradient(180deg, var(--cPrin), var(--cClaInteso) 99.5%)
                 color: var(--cCla)
-                @media screen and (max-width: 768px)
+                @media screen and (max-width: 992px)
                     width: 400px
                     padding: 0px
                     margin: 0 120px
@@ -651,7 +703,7 @@ html
                         font-size: var(--tittle)
                         padding: 12px 
                         border-bottom: 2px dashed
-                        @media screen and (max-width: 768px)
+                        @media screen and (max-width: 992px)
                             font-size: var(--texMob)
                             font-weight: bolder
                     & th:not(th:last-child)
@@ -660,14 +712,14 @@ html
                     & td 
                         height: auto
                         border-bottom: 2px dashed
-                        @media screen and (max-width: 768px)
+                        @media screen and (max-width: 992px)
                             font-size: var(--texMob)
                     
                 & tr td:not(td:last-child)
                     padding: 12px  
                     border-right: 2px dashed
                 & tr td
-                    @media screen and (max-width: 768px)
+                    @media screen and (max-width: 992px)
                         font-size: var(--texMob)
 
 .otherpage
@@ -686,7 +738,7 @@ html
         padding: 1% 5% 
         & .posother
             display: flex
-            @media screen and (max-width: 768px)
+            @media screen and (max-width: 992px)
                 justify-content: space-between
         & .posother a
             text-decoration: none
@@ -702,7 +754,7 @@ html
         top: 90%
         color: var(--cCla)
         padding: 1% 5% 
-        @media screen and (max-width: 768px)
+        @media screen and (max-width: 992px)
             top:110%
             justify-content: center
     & .otcontent
@@ -743,13 +795,13 @@ html
         background: var(--cPrin)
         border: 2px solid var(--cCla) 
     
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 992px)
         width: 45px
         height: 45px
     
     & span
         font-size: 36px
         color: var(--cPrin)
-        @media screen and (max-width: 768px)
+        @media screen and (max-width: 992px)
             font-size: 26px      
     

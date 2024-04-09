@@ -5,6 +5,7 @@
   --cPrinCla:#15a4bc;
   --cCla:#eaeaea;
   --cClaInteso:#969696;
+  --cContrate: #7c0d0d;
   --tittle:35px;
   --tiMob:30px;
   --text:19px;
@@ -33,7 +34,7 @@ html {
   border-style: solid;
   z-index: 9999;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .bisel-down {
     border-width: 0 0 3.5vh 100vw;
   }
@@ -48,7 +49,7 @@ html {
   border-style: solid;
   z-index: 9999;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .bisel-up {
     border-width: 0 100vw 3.5vh 0;
   }
@@ -72,6 +73,28 @@ html {
   z-index: 99999;
   transition: 0.3s;
 }
+.menu .burguer {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .menu .burguer {
+    display: block;
+    color: var(--cPrin);
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-size: var(--tiMob);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .menu .burguer:hover {
+    color: var(--cCla);
+    background: var(--cPrin);
+  }
+}
 .menu .logoCv {
   margin-left: 20px;
 }
@@ -80,7 +103,7 @@ html {
   font-size: var(--tittle);
   color: var(--cOscu);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .menu .logoCv {
     margin-left: 10px;
   }
@@ -104,7 +127,7 @@ html {
   border-radius: 24px;
   transition: 0.45s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .menu .lista-content ul li a {
     font-size: var(--texMob);
   }
@@ -112,6 +135,44 @@ html {
 .menu .lista-content ul li a:hover, .menu .lista-content ul li a.partActive {
   background-color: var(--cPrin);
   color: var(--cCla);
+}
+@media screen and (max-width: 992px) {
+  .menu .lista-content {
+    position: fixed;
+    top: 110px;
+    left: -100%;
+    background: var(--cCla);
+    width: 100%;
+    height: calc(100vh - 110px);
+  }
+  .menu .lista-content .lista {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid var(--cPrin);
+  }
+  .menu .lista-content .lista li {
+    width: 75%;
+    padding-top: 60px;
+    border-bottom: 2px solid var(--cPrin);
+    display: flex;
+    justify-content: center;
+  }
+  .menu .lista-content .lista li a {
+    padding: 12px 0;
+    font-size: 20px;
+  }
+  .menu .lista-content .lista li a.partActive {
+    background: none;
+    color: var(--cPrin);
+  }
+  .menu .lista-content .lista li a:hover {
+    background: none;
+    color: var(--cPrinCla);
+  }
 }
 
 .marcador {
@@ -129,7 +190,7 @@ html {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .img-header {
     height: 50vh;
   }
@@ -146,7 +207,7 @@ html {
   align-items: center;
   flex-direction: column;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .img-header .bienvenido {
     height: 50vh;
   }
@@ -156,7 +217,7 @@ html {
   color: var(--cCla);
   font-weight: 300;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .img-header .bienvenido h2 {
     font-size: var(--tiMob);
   }
@@ -166,7 +227,7 @@ html {
   color: var(--cCla);
   margin-top: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .img-header .bienvenido p {
     font-size: var(--text);
     padding-left: 5px;
@@ -199,7 +260,7 @@ html {
   transition: 0.5s;
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .img-header .bienvenido button {
     display: none;
   }
@@ -231,7 +292,7 @@ html {
   color: var(--cOscu);
   font-size: var(--tittle);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .sobreMi .sobreContainer .sobrePresent h3 {
     margin-left: 15px;
   }
@@ -247,7 +308,7 @@ html {
   border-radius: 24px;
   transition: 0.45s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .sobreMi .sobreContainer .sobrePresent .flecha {
     left: 70%;
     border-radius: 24px;
@@ -275,7 +336,7 @@ html {
   border-radius: 24px;
   transition: 0.45s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .sobreMi .sobreContainer .sobrePresent .flecha-color {
     left: 70%;
     border-radius: 24px;
@@ -325,7 +386,7 @@ html {
   margin: auto;
   padding-top: 90px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer {
     padding-top: 50px;
   }
@@ -337,7 +398,7 @@ html {
   width: 50%;
   margin: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estudios-tittel {
     width: 75%;
   }
@@ -347,7 +408,7 @@ html {
   color: var(--cCla);
   font-size: var(--tittle);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estudios-tittel h2 {
     font-size: var(--tiMob);
   }
@@ -358,7 +419,7 @@ html {
   height: 1px;
   margin: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estudios-tittel hr {
     width: 80%;
   }
@@ -378,15 +439,15 @@ html {
   border-radius: 8px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages {
-    width: 90%;
+    width: 450px;
   }
   .estudios .estuContainer .estu-galeria .estuImages img {
     filter: brightness(30%);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages:hover img {
     filter: brightness(50%);
   }
@@ -414,7 +475,7 @@ html {
   font-size: 1.25vw;
   text-shadow: 0px 0px 20px white;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuInstitucion {
     display: block;
     font-size: var(--text);
@@ -433,7 +494,7 @@ html {
   border-radius: 8px;
   color: var(--cCla);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages .estunombre {
     display: block;
     font-size: var(--text);
@@ -450,7 +511,7 @@ html {
   font-weight: 300;
   color: var(--cCla);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuOtros1 {
     display: block;
     font-size: var(--text);
@@ -466,7 +527,7 @@ html {
   left: 40%;
   font-weight: 300;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages .estuOtros2 {
     display: block;
     bottom: 30px;
@@ -519,7 +580,7 @@ html {
   height: 60px;
   margin: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .tittelCono {
     width: 75%;
   }
@@ -529,7 +590,7 @@ html {
   color: var(--cCla);
   font-size: var(--tittle);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .tittelCono h2 {
     font-size: var(--tiMob);
   }
@@ -540,7 +601,7 @@ html {
   height: 1px;
   margin: -5px auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .tittelCono hr {
     width: 80%;
   }
@@ -614,7 +675,7 @@ html {
   width: 60px;
   height: 60px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .conoContent .front .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .back .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .forma .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .herra .contMain .contMainIcon .ico-etq img, .conocimientos .conocimientosMain .conoContent .otros .contMain .contMainIcon .ico-etq img {
     margin-left: 15px;
   }
@@ -623,12 +684,12 @@ html {
   grid-area: cFoot;
   margin: auto auto 15px auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .conoContent .front .contFoo, .conocimientos .conocimientosMain .conoContent .back .contFoo, .conocimientos .conocimientosMain .conoContent .forma .contFoo, .conocimientos .conocimientosMain .conoContent .herra .contFoo, .conocimientos .conocimientosMain .conoContent .otros .contFoo {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .conocimientos .conocimientosMain .conoContent .front, .conocimientos .conocimientosMain .conoContent .back, .conocimientos .conocimientosMain .conoContent .forma, .conocimientos .conocimientosMain .conoContent .herra, .conocimientos .conocimientosMain .conoContent .otros {
     width: 100%;
   }
@@ -667,7 +728,7 @@ html {
   height: 60px;
   margin: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .tittelexp {
     width: 75%;
   }
@@ -677,7 +738,7 @@ html {
   color: var(--cCla);
   font-size: var(--tittle);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .tittelexp h2 {
     font-size: var(--tiMob);
   }
@@ -688,7 +749,7 @@ html {
   height: 1px;
   margin: -5px auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .tittelexp hr {
     width: 80%;
   }
@@ -707,7 +768,7 @@ html {
   background: linear-gradient(180deg, var(--cPrin), var(--cClaInteso) 99.5%);
   color: var(--cCla);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .expcontent table {
     width: 400px;
     padding: 0px;
@@ -719,7 +780,7 @@ html {
   padding: 12px;
   border-bottom: 2px dashed;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .expcontent table tr:not(tr:last-child) th {
     font-size: var(--texMob);
     font-weight: bolder;
@@ -732,7 +793,7 @@ html {
   height: auto;
   border-bottom: 2px dashed;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .expcontent table tr:not(tr:last-child) td {
     font-size: var(--texMob);
   }
@@ -741,7 +802,7 @@ html {
   padding: 12px;
   border-right: 2px dashed;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .experiencia .expMain .expcontent table tr td {
     font-size: var(--texMob);
   }
@@ -765,7 +826,7 @@ html {
 .otherpage .otherContact .posother {
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .otherpage .otherContact .posother {
     justify-content: space-between;
   }
@@ -787,7 +848,7 @@ html {
   color: var(--cCla);
   padding: 1% 5%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .otherpage .fotcopy {
     top: 110%;
     justify-content: center;
@@ -830,7 +891,7 @@ html {
   background: var(--cPrin);
   border: 2px solid var(--cCla);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .go-top {
     width: 45px;
     height: 45px;
@@ -840,7 +901,7 @@ html {
   font-size: 36px;
   color: var(--cPrin);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .go-top span {
     font-size: 26px;
   }
