@@ -967,19 +967,19 @@ html {
   left: 75%;
   width: 25%;
 }
-.divBatery .low {
+.divBatery .chargeZone .low {
   background: linear-gradient(90deg, var(--low) 25%, var(--cOscu) 25%);
 }
-.divBatery .middle {
+.divBatery .chargeZone .middle {
   background: linear-gradient(90deg, var(--middle) 50%, var(--cOscu) 50%);
 }
-.divBatery .hight {
+.divBatery .chargeZone .hight {
   background: linear-gradient(90deg, var(--hight) 75%, var(--cOscu) 75%);
 }
-.divBatery .very {
+.divBatery .chargeZone .very {
   background: var(--very);
 }
-.divBatery .charge {
+.divBatery .chargeZone .charge {
   position: absolute;
   font-size: 25px;
   top: -18%;
@@ -987,7 +987,7 @@ html {
   color: #ffee00;
   z-index: 99;
 }
-.divBatery .fa-wrench {
+.divBatery .chargeZone .fa-wrench {
   position: absolute;
   font-size: 25px;
   top: -18%;
