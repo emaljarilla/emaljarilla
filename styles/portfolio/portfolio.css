@@ -64,12 +64,13 @@ html {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 100px;
+  height: 110px;
   background-color: var(--cCla);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 99999;
+  transition: 0.3s;
 }
 .menu .logoCv {
   margin-left: 20px;
@@ -106,7 +107,6 @@ html {
 @media screen and (max-width: 768px) {
   .menu .lista-content ul li a {
     font-size: var(--texMob);
-    border-radius: 0px;
   }
 }
 .menu .lista-content ul li a:hover, .menu .lista-content ul li a.partActive {
@@ -304,28 +304,13 @@ html {
 
 .estudios {
   width: 100%;
-  height: 80vw;
+  height: auto;
   background-image: url("../../asets/img/estudios.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 100px;
+  margin-top: 30px;
   position: relative;
-}
-@media screen and (max-width: 992px) {
-  .estudios {
-    height: 90vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .estudios {
-    height: 380vw;
-  }
-}
-@media screen and (max-width: 576px) {
-  .estudios {
-    height: 400vw;
-  }
 }
 .estudios .estudiosDeg {
   position: absolute;
@@ -381,6 +366,7 @@ html {
 .estudios .estuContainer .estu-galeria {
   width: 100%;
   padding-top: 15px;
+  padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -503,18 +489,13 @@ html {
 
 .conocimientos {
   width: 100%;
-  height: 900px;
+  height: auto;
   background-image: url("../../asets/img/conocimientos.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   margin-top: 100px;
   position: relative;
-}
-@media screen and (max-width: 768px) {
-  .conocimientos {
-    height: 1700px;
-  }
 }
 .conocimientos .conocimientosDeg {
   position: absolute;
@@ -567,6 +548,7 @@ html {
 .conocimientos .conocimientosMain .conoContent {
   width: 100%;
   padding-top: 15px;
+  padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -654,18 +636,13 @@ html {
 
 .experiencia {
   width: 100%;
-  height: 850px;
+  height: auto;
   background-image: url("../../asets/img/experiencia.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   margin-top: 100px;
   position: relative;
-}
-@media screen and (max-width: 768px) {
-  .experiencia {
-    height: 900px;
-  }
 }
 .experiencia .experienciaDeg {
   position: absolute;
@@ -720,6 +697,7 @@ html {
   width: 100%;
   height: 100%;
   padding-top: 15px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -771,7 +749,7 @@ html {
 
 .otherpage {
   width: 100%;
-  height: 200px;
+  height: auto;
   position: relative;
   background: linear-gradient(180deg, var(--cCla) 35.5%, var(--cPrin) 85%);
 }
@@ -817,6 +795,7 @@ html {
 }
 .otherpage .otcontent {
   width: 100%;
+  padding-bottom: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -827,4 +806,42 @@ html {
 .otherpage .otcontent #other_page {
   margin: auto;
   width: 150px;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 100px;
+  right: -100px;
+  width: 60px;
+  height: 55px;
+  background: var(--cCla);
+  border: 2px solid var(--cPrin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 99999;
+  transition: 0.6s;
+}
+.go-top:hover span {
+  color: var(--cCla);
+}
+.go-top:hover {
+  background: var(--cPrin);
+  border: 2px solid var(--cCla);
+}
+@media screen and (max-width: 768px) {
+  .go-top {
+    width: 45px;
+    height: 45px;
+  }
+}
+.go-top span {
+  font-size: 36px;
+  color: var(--cPrin);
+}
+@media screen and (max-width: 768px) {
+  .go-top span {
+    font-size: 26px;
+  }
 }/*# sourceMappingURL=portfolio.css.map */

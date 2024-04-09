@@ -1,3 +1,59 @@
+//enlazamos el nav
+let enlaces = document.querySelectorAll(".lista li a");
+
+enlaces.forEach((elementos)=>{
+    elementos.addEventListener('click',(event)=>{
+        enlaces.forEach((borrado)=>{
+            borrado.classList.remove("partActive")
+        })
+        event.target.classList.add("partActive");
+
+    })
+})
+
+let menuContent = document.querySelector(".menu");
+let preScrollPos = window.pageYOffset;
+//gotop
+let gotop =document.querySelector(".go-top");
+window.addEventListener('scroll',function(){
+    let nowScrollPos =window.pageYOffset;
+    if(preScrollPos<nowScrollPos){
+        menuContent.style.top="-120px"
+    }else{
+        menuContent.style="top:0px"
+    }
+    preScrollPos=nowScrollPos;
+
+    //gotop
+    let positionGoTop =window.pageYOffset
+    if(positionGoTop<=600){
+        gotop.style.right="-100px"
+        
+    }else{
+        gotop.style.right="0px"
+        menuContent.style.borderBottom= "3px solid #143c54"
+    }
+/******************************************
+ ******************************************/
+
+   
+
+})
+
+gotop.addEventListener('click',()=>{
+    document.documentElement.scrollTop=0;
+    enlaces.forEach((borrado)=>{
+        borrado.classList.remove("partActive")
+    })
+})
+
+let inicioSaber = document.querySelector('.inicioSaber')
+
+inicioSaber.addEventListener('click',()=>{
+    document.documentElement.scrollTop=750;
+})
+
+
 // botón carta
 let masInfo = document.getElementById("flecha");
 let mostarMenosInfo = document.getElementById("menos")
