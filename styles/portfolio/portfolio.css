@@ -773,7 +773,7 @@ html {
   width: 100%;
   height: 200px;
   position: relative;
-  background: linear-gradient(180deg, var(--cCla) 45.5%, var(--cPrin) 75%);
+  background: linear-gradient(180deg, var(--cCla) 35.5%, var(--cPrin) 85%);
 }
 .otherpage .otherContact {
   position: absolute;
