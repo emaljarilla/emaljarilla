@@ -61,7 +61,7 @@ start.addEventListener("click", () => {
         ele1.classList.toggle(`transformed${i}`)
     }
     setTimeout(() => {
-       window.open("./views/portfolio.html","_self");
+      window.open("./views/portfolio.html","_self");
     }, 5000);
 })     
         
