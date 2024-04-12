@@ -6,10 +6,10 @@
   --cCla:#eaeaea;
   --cClaInteso:#969696;
   --cContrate: #7c0d0d;
-  --low:#900c0c;
-  --middle:#ba5106;
+  --low:#ff3a3a;
+  --middle:#f5d545;
   --hight:#3aac3a;
-  --very:#106203;
+  --very:#1e72f1;
   --tittle:35px;
   --tiMob:30px;
   --text:19px;
@@ -967,19 +967,20 @@ html {
   left: 75%;
   width: 25%;
 }
-.divBatery .low {
+
+.low {
   background: linear-gradient(90deg, var(--low) 25%, var(--cOscu) 25%);
 }
-.divBatery .middle {
+
+.middle {
   background: linear-gradient(90deg, var(--middle) 50%, var(--cOscu) 50%);
 }
-.divBatery .hight {
+
+.hight {
   background: linear-gradient(90deg, var(--hight) 75%, var(--cOscu) 75%);
 }
-.divBatery .very {
-  background: var(--very);
-}
-.divBatery .charge {
+
+.charge {
   position: absolute;
   font-size: 25px;
   top: -18%;
@@ -987,7 +988,8 @@ html {
   color: #ffee00;
   z-index: 99;
 }
-.divBatery .fa-wrench {
+
+.fa-wrench {
   position: absolute;
   font-size: 25px;
   top: -18%;
