@@ -25,10 +25,14 @@ function alertarInicio(n){
 function creaIndex() {
     let objCreado = mozillaORie();
     let arryJson = [];
+    let botonNoPulsado = document.querySelector("#inicio");
     alertarInicio(6000);
     alertarInicio(12000);
     alertarInicio(19000);
     alertarInicio(26000);
+    setTimeout(() => {
+        botonNoPulsado.className ="finnal";
+    }, 30000);
     objCreado.open("GET", "./document/hola_mundo.json", true);
     objCreado.send();
     console.log(objCreado.readyState)
