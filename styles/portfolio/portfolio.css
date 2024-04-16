@@ -449,11 +449,16 @@ html {
   }
   .estudios .estuContainer .estu-galeria .estuImages img {
     filter: brightness(30%);
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 992px) {
   .estudios .estuContainer .estu-galeria .estuImages:hover img {
-    filter: brightness(50%);
+    transition: filter 0.65s;
+    filter: brightness(10%);
   }
   .estudios .estuContainer .estu-galeria .estuImages:hover .estuInstitucion, .estudios .estuContainer .estu-galeria .estuImages:hover .estuOtros2 {
     color: #ff7b3d;
@@ -468,7 +473,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  cursor: pointer;
+  transition: filter 1.3s;
 }
 .estudios .estuContainer .estu-galeria .estuImages .estuInstitucion {
   display: none;
