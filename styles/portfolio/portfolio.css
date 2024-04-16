@@ -650,7 +650,6 @@ html {
   display: flex;
   flex-direction: column;
   text-align: center;
-  cursor: pointer;
   margin: 10px 10px;
   font-size: 60px;
   width: calc(25% + 5px);
