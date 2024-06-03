@@ -117,9 +117,9 @@ a span {
 
 .pos1 {
   position: absolute;
-  top: 28%;
-  left: 58%;
-  font-size: 56px;
+  top: 76%;
+  left: 56%;
+  font-size: 43px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -133,7 +133,7 @@ a span {
 
 .transformed1 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0025s;
@@ -141,9 +141,9 @@ a span {
 
 .pos2 {
   position: absolute;
-  top: 12%;
-  right: 71%;
-  font-size: 67px;
+  top: 32%;
+  right: 25%;
+  font-size: 60px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -157,7 +157,7 @@ a span {
 
 .transformed2 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.005s;
@@ -165,9 +165,9 @@ a span {
 
 .pos3 {
   position: absolute;
-  top: 16%;
-  left: 51%;
-  font-size: 59px;
+  top: 21%;
+  left: 61%;
+  font-size: 44px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -181,7 +181,7 @@ a span {
 
 .transformed3 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0075s;
@@ -189,9 +189,9 @@ a span {
 
 .pos4 {
   position: absolute;
-  top: 90%;
-  right: 46%;
-  font-size: 47px;
+  top: 57%;
+  right: 12%;
+  font-size: 81px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -213,9 +213,9 @@ a span {
 
 .pos5 {
   position: absolute;
-  top: 42%;
-  left: 37%;
-  font-size: 89px;
+  top: 79%;
+  left: 71%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -229,7 +229,7 @@ a span {
 
 .transformed5 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0125s;
@@ -237,9 +237,9 @@ a span {
 
 .pos6 {
   position: absolute;
-  top: 34%;
-  right: 25%;
-  font-size: 51px;
+  top: 66%;
+  right: 90%;
+  font-size: 49px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -253,7 +253,7 @@ a span {
 
 .transformed6 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.015s;
@@ -261,9 +261,9 @@ a span {
 
 .pos7 {
   position: absolute;
-  top: 71%;
-  left: 39%;
-  font-size: 16px;
+  top: 56%;
+  left: 18%;
+  font-size: 91px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -277,7 +277,7 @@ a span {
 
 .transformed7 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0175s;
@@ -285,9 +285,9 @@ a span {
 
 .pos8 {
   position: absolute;
-  top: 84%;
-  right: 87%;
-  font-size: 58px;
+  top: 86%;
+  right: 12%;
+  font-size: 88px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -301,7 +301,7 @@ a span {
 
 .transformed8 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.02s;
@@ -309,9 +309,9 @@ a span {
 
 .pos9 {
   position: absolute;
-  top: 69%;
-  left: 23%;
-  font-size: 16px;
+  top: 33%;
+  left: 90%;
+  font-size: 35px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -325,7 +325,7 @@ a span {
 
 .transformed9 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0225s;
@@ -333,9 +333,9 @@ a span {
 
 .pos10 {
   position: absolute;
-  top: 12%;
-  right: 85%;
-  font-size: 43px;
+  top: 34%;
+  right: 67%;
+  font-size: 62px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -349,7 +349,7 @@ a span {
 
 .transformed10 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.025s;
@@ -357,9 +357,9 @@ a span {
 
 .pos11 {
   position: absolute;
-  top: 71%;
-  left: 20%;
-  font-size: 16px;
+  top: 30%;
+  left: 12%;
+  font-size: 33px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -373,7 +373,7 @@ a span {
 
 .transformed11 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0275s;
@@ -381,9 +381,9 @@ a span {
 
 .pos12 {
   position: absolute;
-  top: 26%;
-  right: 36%;
-  font-size: 61px;
+  top: 50%;
+  right: 30%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -397,7 +397,7 @@ a span {
 
 .transformed12 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.03s;
@@ -405,9 +405,9 @@ a span {
 
 .pos13 {
   position: absolute;
-  top: 89%;
-  left: 55%;
-  font-size: 60px;
+  top: 53%;
+  left: 78%;
+  font-size: 50px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -421,7 +421,7 @@ a span {
 
 .transformed13 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0325s;
@@ -429,9 +429,9 @@ a span {
 
 .pos14 {
   position: absolute;
-  top: 12%;
-  right: 88%;
-  font-size: 16px;
+  top: 86%;
+  right: 12%;
+  font-size: 51px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -453,9 +453,9 @@ a span {
 
 .pos15 {
   position: absolute;
-  top: 45%;
-  left: 90%;
-  font-size: 69px;
+  top: 76%;
+  left: 45%;
+  font-size: 54px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -469,7 +469,7 @@ a span {
 
 .transformed15 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0375s;
@@ -477,9 +477,9 @@ a span {
 
 .pos16 {
   position: absolute;
-  top: 54%;
-  right: 63%;
-  font-size: 63px;
+  top: 36%;
+  right: 20%;
+  font-size: 75px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -493,7 +493,7 @@ a span {
 
 .transformed16 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.04s;
@@ -501,9 +501,9 @@ a span {
 
 .pos17 {
   position: absolute;
-  top: 13%;
-  left: 15%;
-  font-size: 27px;
+  top: 52%;
+  left: 86%;
+  font-size: 41px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -517,7 +517,7 @@ a span {
 
 .transformed17 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0425s;
@@ -525,9 +525,9 @@ a span {
 
 .pos18 {
   position: absolute;
-  top: 12%;
-  right: 70%;
-  font-size: 29px;
+  top: 61%;
+  right: 28%;
+  font-size: 93px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -541,7 +541,7 @@ a span {
 
 .transformed18 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.045s;
@@ -549,9 +549,9 @@ a span {
 
 .pos19 {
   position: absolute;
-  top: 84%;
-  left: 90%;
-  font-size: 40px;
+  top: 12%;
+  left: 48%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -565,7 +565,7 @@ a span {
 
 .transformed19 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0475s;
@@ -573,9 +573,9 @@ a span {
 
 .pos20 {
   position: absolute;
-  top: 85%;
-  right: 76%;
-  font-size: 44px;
+  top: 12%;
+  right: 12%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -589,7 +589,7 @@ a span {
 
 .transformed20 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.05s;
@@ -597,8 +597,8 @@ a span {
 
 .pos21 {
   position: absolute;
-  top: 90%;
-  left: 42%;
+  top: 27%;
+  left: 90%;
   font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
@@ -613,7 +613,7 @@ a span {
 
 .transformed21 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #dcf755;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0525s;
@@ -621,9 +621,9 @@ a span {
 
 .pos22 {
   position: absolute;
-  top: 76%;
-  right: 25%;
-  font-size: 74px;
+  top: 83%;
+  right: 87%;
+  font-size: 40px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -637,7 +637,7 @@ a span {
 
 .transformed22 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.055s;
@@ -645,9 +645,9 @@ a span {
 
 .pos23 {
   position: absolute;
-  top: 90%;
-  left: 90%;
-  font-size: 87px;
+  top: 35%;
+  left: 53%;
+  font-size: 85px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -661,7 +661,7 @@ a span {
 
 .transformed23 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0575s;
@@ -669,9 +669,9 @@ a span {
 
 .pos24 {
   position: absolute;
-  top: 90%;
+  top: 78%;
   right: 29%;
-  font-size: 67px;
+  font-size: 60px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -685,7 +685,7 @@ a span {
 
 .transformed24 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #dcf755;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.06s;
@@ -693,9 +693,9 @@ a span {
 
 .pos25 {
   position: absolute;
-  top: 75%;
-  left: 64%;
-  font-size: 95px;
+  top: 34%;
+  left: 30%;
+  font-size: 90px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -717,9 +717,9 @@ a span {
 
 .pos26 {
   position: absolute;
-  top: 80%;
-  right: 52%;
-  font-size: 16px;
+  top: 41%;
+  right: 44%;
+  font-size: 88px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -733,7 +733,7 @@ a span {
 
 .transformed26 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.065s;
@@ -741,9 +741,9 @@ a span {
 
 .pos27 {
   position: absolute;
-  top: 16%;
-  left: 43%;
-  font-size: 93px;
+  top: 38%;
+  left: 13%;
+  font-size: 31px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -757,7 +757,7 @@ a span {
 
 .transformed27 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #ed7b08;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0675s;
@@ -765,9 +765,9 @@ a span {
 
 .pos28 {
   position: absolute;
-  top: 28%;
-  right: 12%;
-  font-size: 16px;
+  top: 36%;
+  right: 64%;
+  font-size: 19px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -781,7 +781,7 @@ a span {
 
 .transformed28 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.07s;
@@ -789,9 +789,9 @@ a span {
 
 .pos29 {
   position: absolute;
-  top: 51%;
-  left: 66%;
-  font-size: 88px;
+  top: 38%;
+  left: 12%;
+  font-size: 34px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -813,9 +813,9 @@ a span {
 
 .pos30 {
   position: absolute;
-  top: 90%;
-  right: 90%;
-  font-size: 70px;
+  top: 13%;
+  right: 58%;
+  font-size: 72px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -829,7 +829,7 @@ a span {
 
 .transformed30 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.075s;
@@ -837,9 +837,9 @@ a span {
 
 .pos31 {
   position: absolute;
-  top: 12%;
-  left: 31%;
-  font-size: 18px;
+  top: 37%;
+  left: 12%;
+  font-size: 94px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -853,7 +853,7 @@ a span {
 
 .transformed31 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0775s;
@@ -861,9 +861,9 @@ a span {
 
 .pos32 {
   position: absolute;
-  top: 50%;
-  right: 60%;
-  font-size: 65px;
+  top: 56%;
+  right: 90%;
+  font-size: 90px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -877,7 +877,7 @@ a span {
 
 .transformed32 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.08s;
@@ -885,9 +885,9 @@ a span {
 
 .pos33 {
   position: absolute;
-  top: 87%;
-  left: 64%;
-  font-size: 16px;
+  top: 77%;
+  left: 29%;
+  font-size: 82px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -901,7 +901,7 @@ a span {
 
 .transformed33 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0825s;
@@ -909,9 +909,9 @@ a span {
 
 .pos34 {
   position: absolute;
-  top: 27%;
-  right: 90%;
-  font-size: 16px;
+  top: 15%;
+  right: 74%;
+  font-size: 72px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -925,7 +925,7 @@ a span {
 
 .transformed34 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.085s;
@@ -933,9 +933,9 @@ a span {
 
 .pos35 {
   position: absolute;
-  top: 90%;
-  left: 21%;
-  font-size: 81px;
+  top: 42%;
+  left: 18%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -957,9 +957,9 @@ a span {
 
 .pos36 {
   position: absolute;
-  top: 20%;
-  right: 12%;
-  font-size: 41px;
+  top: 44%;
+  right: 23%;
+  font-size: 56px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -973,7 +973,7 @@ a span {
 
 .transformed36 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.09s;
@@ -981,9 +981,9 @@ a span {
 
 .pos37 {
   position: absolute;
-  top: 18%;
-  left: 16%;
-  font-size: 16px;
+  top: 34%;
+  left: 63%;
+  font-size: 47px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1005,9 +1005,9 @@ a span {
 
 .pos38 {
   position: absolute;
-  top: 80%;
-  right: 60%;
-  font-size: 70px;
+  top: 64%;
+  right: 32%;
+  font-size: 69px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1021,7 +1021,7 @@ a span {
 
 .transformed38 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.095s;
@@ -1029,9 +1029,9 @@ a span {
 
 .pos39 {
   position: absolute;
-  top: 49%;
-  left: 90%;
-  font-size: 19px;
+  top: 68%;
+  left: 15%;
+  font-size: 37px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1045,7 +1045,7 @@ a span {
 
 .transformed39 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.0975s;
@@ -1053,9 +1053,9 @@ a span {
 
 .pos40 {
   position: absolute;
-  top: 34%;
-  right: 58%;
-  font-size: 16px;
+  top: 55%;
+  right: 17%;
+  font-size: 54px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1069,7 +1069,7 @@ a span {
 
 .transformed40 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1s;
@@ -1077,9 +1077,9 @@ a span {
 
 .pos41 {
   position: absolute;
-  top: 12%;
-  left: 61%;
-  font-size: 81px;
+  top: 53%;
+  left: 42%;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1093,7 +1093,7 @@ a span {
 
 .transformed41 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #ed7b08;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1025s;
@@ -1102,8 +1102,8 @@ a span {
 .pos42 {
   position: absolute;
   top: 12%;
-  right: 17%;
-  font-size: 78px;
+  right: 90%;
+  font-size: 54px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1117,7 +1117,7 @@ a span {
 
 .transformed42 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.105s;
@@ -1125,9 +1125,9 @@ a span {
 
 .pos43 {
   position: absolute;
-  top: 74%;
-  left: 77%;
-  font-size: 56px;
+  top: 90%;
+  left: 87%;
+  font-size: 34px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1141,7 +1141,7 @@ a span {
 
 .transformed43 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1075s;
@@ -1149,9 +1149,9 @@ a span {
 
 .pos44 {
   position: absolute;
-  top: 89%;
-  right: 46%;
-  font-size: 28px;
+  top: 85%;
+  right: 45%;
+  font-size: 57px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1165,7 +1165,7 @@ a span {
 
 .transformed44 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.11s;
@@ -1173,9 +1173,9 @@ a span {
 
 .pos45 {
   position: absolute;
-  top: 12%;
-  left: 22%;
-  font-size: 33px;
+  top: 38%;
+  left: 34%;
+  font-size: 31px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1197,9 +1197,9 @@ a span {
 
 .pos46 {
   position: absolute;
-  top: 52%;
-  right: 75%;
-  font-size: 16px;
+  top: 65%;
+  right: 12%;
+  font-size: 73px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1213,7 +1213,7 @@ a span {
 
 .transformed46 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.115s;
@@ -1221,9 +1221,9 @@ a span {
 
 .pos47 {
   position: absolute;
-  top: 70%;
-  left: 90%;
-  font-size: 16px;
+  top: 85%;
+  left: 43%;
+  font-size: 78px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1237,7 +1237,7 @@ a span {
 
 .transformed47 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1175s;
@@ -1245,9 +1245,9 @@ a span {
 
 .pos48 {
   position: absolute;
-  top: 41%;
-  right: 79%;
-  font-size: 30px;
+  top: 50%;
+  right: 12%;
+  font-size: 42px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1269,9 +1269,9 @@ a span {
 
 .pos49 {
   position: absolute;
-  top: 45%;
-  left: 84%;
-  font-size: 22px;
+  top: 63%;
+  left: 25%;
+  font-size: 27px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1285,7 +1285,7 @@ a span {
 
 .transformed49 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1225s;
@@ -1293,9 +1293,9 @@ a span {
 
 .pos50 {
   position: absolute;
-  top: 14%;
-  right: 14%;
-  font-size: 16px;
+  top: 29%;
+  right: 65%;
+  font-size: 33px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1309,7 +1309,7 @@ a span {
 
 .transformed50 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.125s;
@@ -1317,9 +1317,9 @@ a span {
 
 .pos51 {
   position: absolute;
-  top: 68%;
-  left: 35%;
-  font-size: 88px;
+  top: 90%;
+  left: 90%;
+  font-size: 68px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1341,9 +1341,9 @@ a span {
 
 .pos52 {
   position: absolute;
-  top: 30%;
-  right: 23%;
-  font-size: 49px;
+  top: 48%;
+  right: 84%;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1357,7 +1357,7 @@ a span {
 
 .transformed52 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.13s;
@@ -1365,9 +1365,9 @@ a span {
 
 .pos53 {
   position: absolute;
-  top: 40%;
-  left: 29%;
-  font-size: 16px;
+  top: 18%;
+  left: 12%;
+  font-size: 92px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1381,7 +1381,7 @@ a span {
 
 .transformed53 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1325s;
@@ -1389,9 +1389,9 @@ a span {
 
 .pos54 {
   position: absolute;
-  top: 44%;
-  right: 90%;
-  font-size: 49px;
+  top: 35%;
+  right: 12%;
+  font-size: 36px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1405,7 +1405,7 @@ a span {
 
 .transformed54 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.135s;
@@ -1413,9 +1413,9 @@ a span {
 
 .pos55 {
   position: absolute;
-  top: 46%;
-  left: 38%;
-  font-size: 27px;
+  top: 12%;
+  left: 12%;
+  font-size: 57px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1429,7 +1429,7 @@ a span {
 
 .transformed55 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1375s;
@@ -1437,9 +1437,9 @@ a span {
 
 .pos56 {
   position: absolute;
-  top: 40%;
-  right: 87%;
-  font-size: 79px;
+  top: 90%;
+  right: 90%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1453,7 +1453,7 @@ a span {
 
 .transformed56 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.14s;
@@ -1461,9 +1461,9 @@ a span {
 
 .pos57 {
   position: absolute;
-  top: 90%;
-  left: 88%;
-  font-size: 95px;
+  top: 58%;
+  left: 75%;
+  font-size: 38px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1477,7 +1477,7 @@ a span {
 
 .transformed57 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1425s;
@@ -1485,9 +1485,9 @@ a span {
 
 .pos58 {
   position: absolute;
-  top: 27%;
-  right: 66%;
-  font-size: 61px;
+  top: 80%;
+  right: 18%;
+  font-size: 26px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1509,9 +1509,9 @@ a span {
 
 .pos59 {
   position: absolute;
-  top: 88%;
-  left: 30%;
-  font-size: 58px;
+  top: 90%;
+  left: 12%;
+  font-size: 36px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1525,7 +1525,7 @@ a span {
 
 .transformed59 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1475s;
@@ -1533,9 +1533,9 @@ a span {
 
 .pos60 {
   position: absolute;
-  top: 90%;
-  right: 90%;
-  font-size: 40px;
+  top: 30%;
+  right: 48%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1549,7 +1549,7 @@ a span {
 
 .transformed60 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.15s;
@@ -1557,9 +1557,9 @@ a span {
 
 .pos61 {
   position: absolute;
-  top: 59%;
-  left: 90%;
-  font-size: 37px;
+  top: 12%;
+  left: 35%;
+  font-size: 64px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1573,7 +1573,7 @@ a span {
 
 .transformed61 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1525s;
@@ -1581,9 +1581,9 @@ a span {
 
 .pos62 {
   position: absolute;
-  top: 32%;
-  right: 66%;
-  font-size: 39px;
+  top: 12%;
+  right: 16%;
+  font-size: 22px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1597,7 +1597,7 @@ a span {
 
 .transformed62 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.155s;
@@ -1605,9 +1605,9 @@ a span {
 
 .pos63 {
   position: absolute;
-  top: 30%;
-  left: 19%;
-  font-size: 16px;
+  top: 82%;
+  left: 12%;
+  font-size: 44px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1621,7 +1621,7 @@ a span {
 
 .transformed63 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1575s;
@@ -1629,9 +1629,9 @@ a span {
 
 .pos64 {
   position: absolute;
-  top: 80%;
-  right: 21%;
-  font-size: 16px;
+  top: 42%;
+  right: 12%;
+  font-size: 72px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1645,7 +1645,7 @@ a span {
 
 .transformed64 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.16s;
@@ -1653,9 +1653,9 @@ a span {
 
 .pos65 {
   position: absolute;
-  top: 49%;
-  left: 17%;
-  font-size: 16px;
+  top: 56%;
+  left: 66%;
+  font-size: 63px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1677,9 +1677,9 @@ a span {
 
 .pos66 {
   position: absolute;
-  top: 56%;
-  right: 12%;
-  font-size: 80px;
+  top: 12%;
+  right: 19%;
+  font-size: 51px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1693,7 +1693,7 @@ a span {
 
 .transformed66 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.165s;
@@ -1701,9 +1701,9 @@ a span {
 
 .pos67 {
   position: absolute;
-  top: 82%;
-  left: 66%;
-  font-size: 74px;
+  top: 77%;
+  left: 19%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1717,7 +1717,7 @@ a span {
 
 .transformed67 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1675s;
@@ -1725,9 +1725,9 @@ a span {
 
 .pos68 {
   position: absolute;
-  top: 32%;
-  right: 12%;
-  font-size: 33px;
+  top: 68%;
+  right: 48%;
+  font-size: 70px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1741,7 +1741,7 @@ a span {
 
 .transformed68 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.17s;
@@ -1749,9 +1749,9 @@ a span {
 
 .pos69 {
   position: absolute;
-  top: 32%;
-  left: 90%;
-  font-size: 84px;
+  top: 37%;
+  left: 13%;
+  font-size: 38px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1765,7 +1765,7 @@ a span {
 
 .transformed69 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1725s;
@@ -1773,9 +1773,9 @@ a span {
 
 .pos70 {
   position: absolute;
-  top: 25%;
-  right: 84%;
-  font-size: 16px;
+  top: 46%;
+  right: 14%;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1789,7 +1789,7 @@ a span {
 
 .transformed70 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.175s;
@@ -1797,9 +1797,9 @@ a span {
 
 .pos71 {
   position: absolute;
-  top: 40%;
-  left: 26%;
-  font-size: 73px;
+  top: 12%;
+  left: 80%;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1813,7 +1813,7 @@ a span {
 
 .transformed71 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #0315b9;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1775s;
@@ -1821,9 +1821,9 @@ a span {
 
 .pos72 {
   position: absolute;
-  top: 90%;
-  right: 12%;
-  font-size: 90px;
+  top: 53%;
+  right: 62%;
+  font-size: 49px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1837,7 +1837,7 @@ a span {
 
 .transformed72 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.18s;
@@ -1845,9 +1845,9 @@ a span {
 
 .pos73 {
   position: absolute;
-  top: 30%;
-  left: 63%;
-  font-size: 58px;
+  top: 74%;
+  left: 12%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1861,7 +1861,7 @@ a span {
 
 .transformed73 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1825s;
@@ -1869,9 +1869,9 @@ a span {
 
 .pos74 {
   position: absolute;
-  top: 74%;
-  right: 41%;
-  font-size: 88px;
+  top: 78%;
+  right: 31%;
+  font-size: 50px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1885,7 +1885,7 @@ a span {
 
 .transformed74 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #dcf755;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.185s;
@@ -1893,9 +1893,9 @@ a span {
 
 .pos75 {
   position: absolute;
-  top: 39%;
-  left: 63%;
-  font-size: 55px;
+  top: 12%;
+  left: 60%;
+  font-size: 87px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1909,7 +1909,7 @@ a span {
 
 .transformed75 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #ed7b08;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1875s;
@@ -1917,9 +1917,9 @@ a span {
 
 .pos76 {
   position: absolute;
-  top: 73%;
-  right: 74%;
-  font-size: 50px;
+  top: 42%;
+  right: 90%;
+  font-size: 94px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1933,7 +1933,7 @@ a span {
 
 .transformed76 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.19s;
@@ -1941,9 +1941,9 @@ a span {
 
 .pos77 {
   position: absolute;
-  top: 12%;
-  left: 71%;
-  font-size: 52px;
+  top: 82%;
+  left: 61%;
+  font-size: 64px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -1957,7 +1957,7 @@ a span {
 
 .transformed77 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1925s;
@@ -1965,9 +1965,9 @@ a span {
 
 .pos78 {
   position: absolute;
-  top: 39%;
-  right: 12%;
-  font-size: 21px;
+  top: 80%;
+  right: 23%;
+  font-size: 86px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -1989,9 +1989,9 @@ a span {
 
 .pos79 {
   position: absolute;
-  top: 74%;
-  left: 12%;
-  font-size: 85px;
+  top: 60%;
+  left: 90%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2005,7 +2005,7 @@ a span {
 
 .transformed79 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.1975s;
@@ -2013,9 +2013,9 @@ a span {
 
 .pos80 {
   position: absolute;
-  top: 65%;
-  right: 82%;
-  font-size: 85px;
+  top: 12%;
+  right: 48%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2029,7 +2029,7 @@ a span {
 
 .transformed80 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
@@ -2037,9 +2037,9 @@ a span {
 
 .pos81 {
   position: absolute;
-  top: 65%;
-  left: 76%;
-  font-size: 40px;
+  top: 12%;
+  left: 67%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2061,9 +2061,9 @@ a span {
 
 .pos82 {
   position: absolute;
-  top: 86%;
-  right: 35%;
-  font-size: 19px;
+  top: 74%;
+  right: 59%;
+  font-size: 32px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2077,7 +2077,7 @@ a span {
 
 .transformed82 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.205s;
@@ -2085,9 +2085,9 @@ a span {
 
 .pos83 {
   position: absolute;
-  top: 30%;
-  left: 35%;
-  font-size: 98px;
+  top: 56%;
+  left: 64%;
+  font-size: 95px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2101,7 +2101,7 @@ a span {
 
 .transformed83 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2075s;
@@ -2109,9 +2109,9 @@ a span {
 
 .pos84 {
   position: absolute;
-  top: 75%;
-  right: 27%;
-  font-size: 94px;
+  top: 90%;
+  right: 12%;
+  font-size: 44px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2125,7 +2125,7 @@ a span {
 
 .transformed84 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #1280e7;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.21s;
@@ -2133,9 +2133,9 @@ a span {
 
 .pos85 {
   position: absolute;
-  top: 88%;
-  left: 12%;
-  font-size: 58px;
+  top: 51%;
+  left: 25%;
+  font-size: 45px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2149,7 +2149,7 @@ a span {
 
 .transformed85 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #dcf755;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2125s;
@@ -2157,9 +2157,9 @@ a span {
 
 .pos86 {
   position: absolute;
-  top: 80%;
-  right: 14%;
-  font-size: 81px;
+  top: 39%;
+  right: 54%;
+  font-size: 84px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2173,7 +2173,7 @@ a span {
 
 .transformed86 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.215s;
@@ -2181,9 +2181,9 @@ a span {
 
 .pos87 {
   position: absolute;
-  top: 90%;
-  left: 35%;
-  font-size: 59px;
+  top: 45%;
+  left: 12%;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2197,7 +2197,7 @@ a span {
 
 .transformed87 {
   visibility: visible !important;
-  color: #4137cf;
+  color: #37cf81;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2175s;
@@ -2205,9 +2205,9 @@ a span {
 
 .pos88 {
   position: absolute;
-  top: 12%;
-  right: 12%;
-  font-size: 74px;
+  top: 47%;
+  right: 40%;
+  font-size: 29px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2221,7 +2221,7 @@ a span {
 
 .transformed88 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.22s;
@@ -2229,9 +2229,9 @@ a span {
 
 .pos89 {
   position: absolute;
-  top: 78%;
-  left: 71%;
-  font-size: 71px;
+  top: 59%;
+  left: 77%;
+  font-size: 44px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2245,7 +2245,7 @@ a span {
 
 .transformed89 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #ed7b08;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2225s;
@@ -2253,9 +2253,9 @@ a span {
 
 .pos90 {
   position: absolute;
-  top: 26%;
-  right: 86%;
-  font-size: 16px;
+  top: 81%;
+  right: 18%;
+  font-size: 90px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2269,7 +2269,7 @@ a span {
 
 .transformed90 {
   visibility: visible !important;
-  color: #cf378b;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.225s;
@@ -2277,9 +2277,9 @@ a span {
 
 .pos91 {
   position: absolute;
-  top: 65%;
-  left: 37%;
-  font-size: 81px;
+  top: 25%;
+  left: 33%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2293,7 +2293,7 @@ a span {
 
 .transformed91 {
   visibility: visible !important;
-  color: #b3cf37;
+  color: #cf378b;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2275s;
@@ -2301,9 +2301,9 @@ a span {
 
 .pos92 {
   position: absolute;
-  top: 16%;
-  right: 86%;
-  font-size: 74px;
+  top: 74%;
+  right: 84%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2317,7 +2317,7 @@ a span {
 
 .transformed92 {
   visibility: visible !important;
-  color: #c537cf;
+  color: #b3cf37;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.23s;
@@ -2325,9 +2325,9 @@ a span {
 
 .pos93 {
   position: absolute;
-  top: 12%;
-  left: 90%;
-  font-size: 49px;
+  top: 81%;
+  left: 12%;
+  font-size: 83px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2341,7 +2341,7 @@ a span {
 
 .transformed93 {
   visibility: visible !important;
-  color: #1280e7;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2325s;
@@ -2349,9 +2349,9 @@ a span {
 
 .pos94 {
   position: absolute;
-  top: 86%;
+  top: 63%;
   right: 68%;
-  font-size: 58px;
+  font-size: 96px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2365,7 +2365,7 @@ a span {
 
 .transformed94 {
   visibility: visible !important;
-  color: #0315b9;
+  color: #cf3737;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.235s;
@@ -2373,9 +2373,9 @@ a span {
 
 .pos95 {
   position: absolute;
-  top: 76%;
-  left: 62%;
-  font-size: 63px;
+  top: 62%;
+  left: 56%;
+  font-size: 93px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2397,9 +2397,9 @@ a span {
 
 .pos96 {
   position: absolute;
-  top: 61%;
-  right: 90%;
-  font-size: 47px;
+  top: 84%;
+  right: 13%;
+  font-size: 87px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2413,7 +2413,7 @@ a span {
 
 .transformed96 {
   visibility: visible !important;
-  color: #ed7b08;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.24s;
@@ -2421,9 +2421,9 @@ a span {
 
 .pos97 {
   position: absolute;
-  top: 90%;
-  left: 70%;
-  font-size: 34px;
+  top: 12%;
+  left: 12%;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2437,7 +2437,7 @@ a span {
 
 .transformed97 {
   visibility: visible !important;
-  color: #37cf81;
+  color: #dcf755;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2425s;
@@ -2445,9 +2445,9 @@ a span {
 
 .pos98 {
   position: absolute;
-  top: 34%;
-  right: 73%;
-  font-size: 79px;
+  top: 26%;
+  right: 87%;
+  font-size: 66px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(-15deg);
   transition-property: color;
@@ -2461,7 +2461,7 @@ a span {
 
 .transformed98 {
   visibility: visible !important;
-  color: #cf3737;
+  color: #c537cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.245s;
@@ -2469,9 +2469,9 @@ a span {
 
 .pos99 {
   position: absolute;
-  top: 23%;
-  left: 44%;
-  font-size: 65px;
+  top: 26%;
+  left: 78%;
+  font-size: 54px;
   color: rgba(0, 0, 0, 0);
   transform: rotate(15deg);
   transition-property: color;
@@ -2485,7 +2485,7 @@ a span {
 
 .transformed99 {
   visibility: visible !important;
-  color: #dcf755;
+  color: #4137cf;
   transition-property: color;
   transition-timing-function: ease-in-out;
   transition-duration: 0.2475s;
