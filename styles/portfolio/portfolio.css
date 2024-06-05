@@ -362,9 +362,10 @@ html {
   display: block;
 }
 .sobreMi p {
-  text-align: justify;
+  text-align: start;
   color: var(--cOscu);
   font-size: var(--text);
+  padding-top: 8px;
 }
 
 .estudios {
