@@ -113,7 +113,7 @@ other.addEventListener('click', () => {
             
             case "2":
                 other.value = "1";
-                window.open("./p_bootstrap.html","_self");
+                window.open("./pagina_en_obras.html","_self");
                 break;
             case "3":
                 other.value = "1";
