@@ -118,12 +118,7 @@ other.addEventListener('click', () => {
             case "3":
                 other.value = "1";
                 window.open("./pagina_en_obras.html","_self");
-                break;
-            case "4":
-                other.value = "1";
-                window.open("./pagina_en_obras.html","_self");
-                break;
-          
+                break;          
         }
         ++contador;
     }
