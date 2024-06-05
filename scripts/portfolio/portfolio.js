@@ -123,10 +123,7 @@ other.addEventListener('click', () => {
                 other.value = "1";
                 window.open("./pagina_en_obras.html","_self");
                 break;
-            case "5":
-                other.value = "1";
-                window.open("./pagina_en_obras.html","_self");
-                break;
+          
         }
         ++contador;
     }
