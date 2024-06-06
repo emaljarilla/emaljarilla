@@ -56,7 +56,7 @@ inicioSaber.addEventListener('click',()=>{
     document.documentElement.scrollTop=750;
 })
 
-//disponibilidad
+//disponibilidad debe de subirse
 let disponibilidad = document.querySelector(".estado_laboral");
 let inicial = document.querySelector(".testdiponibilidad");
 
