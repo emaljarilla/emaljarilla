@@ -332,14 +332,27 @@ html
             border-radius: 12px   
     & .menosInfo
         display: none
+        color: var(--cOscu) !important
     & .masInfo
         display: block
-    & p
-        text-align: start
+    & p:not(.estado_laboral>p, .estado_laboralDisponible>p)
+        text-align: start 
         color: var(--cOscu)
         font-size: var(--text)
         padding-top: 8px
-
+.estado_laboral, .estado_laboralDisponible
+    padding-top: 8px
+    transition: font-size 1.55s
+    color: var(--cCla)
+    font-size: var(--text)
+    width: 250px
+    height: 40px
+    background-color: var(--cOscu)
+    display: flex
+    justify-content: center
+.estado_laboralDisponible
+    transition: background-color 0.85s
+    background-color: #065c02    
 //>=======>
 //>=>                                                             >>
 //>=>          >=>     >> >==> >===>>=>>==>     >=> >=>     >==>        >=>     >==>>==>
@@ -596,30 +609,22 @@ html
                             display: flex
                             flex-direction: column
                             text-align: center
-                            
-                            
-                            &:hover span
-                                visibility: visible
-                                
-                            & span
-                                visibility: hidden
-                                position: absolute
-                                top: 50%
-                                left: 50px                                
+                                               
                             & i
                             margin: 10px 10px
                             font-size: 60px
                             width: calc( 25% - -5px )
-                            height: auto
+                            height: auto                           
                             & p
                                 margin: 5px 0
                                 color: var(--cCla)
                                 font-size: 18%
                             & img
+                                
+                                align-content: center
                                 width: 60px
                                 height: 60px
-                                @media screen and (max-width: 992px)
-                                    margin-left: 15px
+                                margin: auto
                 & .contFoo
                     grid-area: cFoot
                     margin: auto auto 15px auto
@@ -734,31 +739,24 @@ html
         position: absolute
         left: 0
         width: 100%
-        height: 50%
+        height: auto
         top:90%
         background: var(--cPrin)
-        padding: 1% 5% 
+        padding: 5% 6% 
         & .posother
             display: flex
+            flex-direction: row
+            justify-content: space-between
             @media screen and (max-width: 992px)
                 justify-content: space-between
+            & .creaYear
+                color: var(--cCla)
         & .posother a
             text-decoration: none
             color: var(--cCla)
         & .posother a:last-child
             margin-left: 25px
-    & .fotcopy
-        position: absolute
-        display: flex
-        justify-content: end
-        width: 100%
-        height: 25%
-        top: 90%
-        color: var(--cCla)
-        padding: 1% 5% 
-        @media screen and (max-width: 992px)
-            top:110%
-            justify-content: center
+    
     & .otcontent
         width: 100%
         padding-bottom: 150px
@@ -807,81 +805,6 @@ html
         @media screen and (max-width: 992px)
             font-size: 26px      
 
-
-
-
-
-//////////pilas
-.divBatery
-    
-    width: 50px
-    height: 20px
-    position: relative
-    & .boxBatery
-        margin: 0
-        padding: 0
-        height: 100%
-        width: 90%
-        border: 0.1px solid var(--cCla)
-        position: absolute
-        top: 0px
-        left: 0px
-    & .pila
-        height: 50%
-        width: 10%
-        background: var(--cCla)
-        position: absolute
-        right: 2px
-        top: 25%
-    & .chargeZone 
-        height: calc(100% - 2px)
-        width: calc(90% - 2px)
-        position: absolute
-        top: 1px
-        left: 1px
-        & .chargeLow
-            position: absolute
-            height: 100%
-            top: 0%
-            left: 0%
-            width: 25%
-            border-right: 0.5px solid black
-        & .chargeMiddle
-            position: absolute
-            height: 100%
-            top: 0px
-            left: 25%
-            width: 25%
-            border-right: 0.5px solid black
-        & .chargeHight
-            position: absolute
-            height: 100%
-            top: 0px
-            left: 50%
-            width: 25%
-            border-right: 0.5px solid black
-        & .chargeVeryHight
-            position: absolute
-            height: 100%
-            top: 0px
-            left: 75%
-            width: 25%
-.low
-    background: linear-gradient(90deg, var(--low) 25%, var(--cOscu) 25%)
-.middle
-    background: linear-gradient(90deg, var(--middle) 50%, var(--cOscu) 50%)
-.hight
-    background: linear-gradient(90deg, var(--hight) 75%, var(--cOscu) 75%)
-
-.very
-    background: var(--very)
-.charge
-    position: absolute
-    font-size: 25px
-    top: -18%
-    left: 25%
-    color: #ffee00
-    z-index: 99
 .fa-wrench
     position: absolute
     font-size: 25px
