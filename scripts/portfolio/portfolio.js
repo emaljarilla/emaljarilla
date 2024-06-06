@@ -56,7 +56,15 @@ inicioSaber.addEventListener('click',()=>{
     document.documentElement.scrollTop=750;
 })
 
+//disponibilidad debe de subirse
+let disponibilidad = document.querySelector(".estado_laboral");
+let inicial = document.querySelector(".testdiponibilidad");
 
+disponibilidad.addEventListener('mouseover', () => {
+    inicial.innerText ="Disponibilidad inmediata";    
+    disponibilidad.classList.add("estado_laboralDisponible");
+    disponibilidad.classList.remove("estado_laboral");
+})
 // botón carta
 let masInfo = document.getElementById("flecha");
 let mostarMenosInfo = document.getElementById("menos")
