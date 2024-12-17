@@ -97,11 +97,12 @@ btnBurger.addEventListener('click',()=>{
     }
     
   
-})
+});
 
 
 
 //botón otras páginas
+/*
 let other = document.getElementById("other_page");
 let contador=1;
 
@@ -131,4 +132,4 @@ other.addEventListener('click', () => {
         ++contador;
     }
     ++contador;
-})
+})*/

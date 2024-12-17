@@ -3,7 +3,7 @@
   --cPrin:#143c54;
   --cOscu:#252a34;
   --cPrinCla:#15a4bc;
-  --cCla:#eaeaea;
+  --cCla:#ffffff;
   --cClaInteso:#969696;
   --cContrate: #7c0d0d;
   --low:#ff3a3a;
@@ -34,7 +34,7 @@ html {
   bottom: 0px;
   left: 0px;
   border-width: 0 0 10vh 100vw;
-  border-color: transparent transparent var(--cCla) transparent;
+  border-color: transparent transparent var(--cCla) transparent !important;
   border-style: solid;
   z-index: 9999;
 }
@@ -367,6 +367,14 @@ html {
   font-size: var(--text);
 }
 
+.scrum {
+  background: #bfd4e5;
+  transition: background-color 1.5s ease;
+}
+.scrum:hover {
+  background: rgba(191, 212, 229, 0.5882352941);
+}
+
 .estudios {
   width: 100%;
   height: auto;
@@ -624,7 +632,7 @@ html {
   justify-content: center;
 }
 .conocimientos .conocimientosMain .conoContent .front, .conocimientos .conocimientosMain .conoContent .back, .conocimientos .conocimientosMain .conoContent .forma, .conocimientos .conocimientosMain .conoContent .herra, .conocimientos .conocimientosMain .conoContent .otros {
-  width: calc(20% - 10px);
+  width: calc(26% - 10px);
   height: auto;
   margin: 10px;
   border: 2.5px solid var(--cCla);
