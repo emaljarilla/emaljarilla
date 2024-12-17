@@ -370,6 +370,7 @@ html {
 .scrum {
   background: #bfd4e5;
   transition: background-color 1.5s ease;
+  height: 260px;
 }
 .scrum:hover {
   background: rgba(191, 212, 229, 0.5882352941);
